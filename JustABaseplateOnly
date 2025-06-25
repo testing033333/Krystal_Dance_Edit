@@ -627,9 +627,9 @@ lol = true
 end
 local sprinting = false 
 local is = game:GetService("InsertService")
-local idleanim = is:LoadLocalAsset("rbxassetid://83465205704188")
-local walkanim = is:LoadLocalAsset("rbxassetid://73210090104463")
-local sprintanim = is:LoadLocalAsset("rbxassetid://117120797008387")
+local idleanim = is:LoadLocalAsset("rbxassetid://83465205704188") --noli
+local walkanim = is:LoadLocalAsset("rbxassetid://73210090104463") --drink 
+local sprintanim = is:LoadLocalAsset("rbxassetid://117120797008387") -- just a basic sprint
 local randompart = Instance.new("Part",game:GetService("RunService"))
 local coolparticles = is:LoadLocalAsset("rbxassetid://87299663038091").ParticleAttachment
 coolparticles.Parent = randompart
@@ -2306,7 +2306,7 @@ char.Humanoid:GetPropertyChangedSignal("MoveDirection"):Connect(function()
 	stopanim()
 	fwait(1/500)
         if idle == true and walking == false and char.Humanoid.MoveDirection == Vector3.new(0,0,0) and dancing == false and playanother==true then
-            playanim(83465205704188,1,false,idleanim )
+            playanim(83465205704188,1,false,idleanim ) --see line 630
             end
         elseif char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and walking == false then 
             char.Humanoid.WalkSpeed = 14*char:GetScale()
@@ -2317,12 +2317,12 @@ char.Humanoid:GetPropertyChangedSignal("MoveDirection"):Connect(function()
     	 if sprinting == false then 
                  char.Humanoid.WalkSpeed = 6*char:GetScale()
             if walking == true and idle == false and  char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and playanother==true  then 
-                playanim(73210090104463,0.5,false,walkanim)
+                playanim(73210090104463,0.5,false,walkanim) --see line 631
             end
         else
                 char.Humanoid.WalkSpeed = 33*char:GetScale()
             if walking == true and idle == false and  char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and playanother==true  then 
-                playanim(117120797008387,2.5,false,sprintanim)
+                playanim(117120797008387,2.5,false,sprintanim) --see line 632
             end
     end
 end
