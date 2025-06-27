@@ -9,7 +9,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 task.wait(1.500)
 local Bindable = Instance.new("BindableFunction")
 	local function Copy(e)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/songpack/refs/heads/main/kdv3editaudiodownloader.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal-Dance-V3-Edit/refs/heads/main/kdv3editaudiodownloader.lua"))()
 		Bindable:Destroy()
 	end
 	Bindable.OnInvoke = Copy
@@ -45,7 +45,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Text = "Checking Updates..."
 })
 task.wait(1.500)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/songpack/refs/heads/main/kdv3editaudiodownloader.lua"))() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal-Dance-V3-Edit/refs/heads/main/kdv3editaudiodownloader.lua"))() 
 -- Automatically Downloads Updates ^
                                 ---  |
 task.wait(.1)
@@ -1093,7 +1093,7 @@ end
         if exploit ~= "CaetSploit" then
         idwithoutthatbit= string.gsub(id,"Dances/","")
         if not isfile(id) then 
-         writefile(id,game:HttpGet("https://github.com/testing033333/music/tree/Audio-1"..idwithoutthatbit))
+         writefile(id,game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal-Dance-V3-Edit/refs/heads/main/"..idwithoutthatbit))
         end
        repeat task.wait() until isfile(id)
     end
@@ -1117,9 +1117,9 @@ end
             sound69.PlaybackSpeed = 1
             if playbacktrack == true then 
                            if lol ~= true then 
-            sound69.SoundId = customasset("Dances/bothered.mp3")
+            sound69.SoundId = customasset("Dances/MIX. 02 - BOTHERED!.mp4")
                 else 
-                      sound69.SoundId = customasset("Dances/bothered.mp3")  
+                      sound69.SoundId = customassetDances/MIX. 02 - BOTHERED!.mp4")  
                 end
             sound69.Volume = .75
             else 
