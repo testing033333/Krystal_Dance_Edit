@@ -9,53 +9,53 @@ task.spawn(function()
 	warn("Downloading a couple songs!!")
 end)
 
-if not isfile("Dances/buckshot.mp4") then
-	writefile("Dances/buckshot.mp4", 
+if not isfile("Dances/Buckshot Roulette OST - You are an Angel (extended).mp4") then
+	writefile("Dances/Buckshot Roulette OST - You are an Angel (extended).mp4", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Buckshot%20Roulette%20OST%20-%20You%20are%20an%20Angel%20(extended).mp4?raw=true"))
 	warn("Downloaded!")
 end
 
-if not isfile("Dances/charlixcx.mp4") then
-	writefile("Dances/charlixcx.mp4", 
+if not isfile("Dances/Charli XCX - speed drive (femtanyl remix).mp4") then
+	writefile("Dances/Charli XCX - speed drive (femtanyl remix).mp4", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Charli%20XCX%20-%20speed%20drive%20(femtanyl%20remix).mp4?raw=true"))
 	warn("Downloaded!")
 end
 
-if not isfile("Dances/imgonna.mp4") then
-	writefile("Dances/imgonna.mp4", 
+if not isfile("Dances/K1LL SOMEBODY.mp4") then
+	writefile("Dances/K1LL SOMEBODY.mp4", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/K1LL%20SOMEBODY.mp4?raw=true"))
 	warn("Downloaded!")
 end
 
-if not isfile("Dances/bothered.mp4") then
-	writefile("Dances/bothered.mp4", 
+if not isfile("Dances/MIX. 02 - BOTHERED!.mp4.mp4") then
+	writefile("Dances/MIX. 02 - BOTHERED!.mp4", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/MIX.%2002%20-%20BOTHERED!.mp4?raw=true"))
 	warn("Downloaded!")
 end
 
-if not isfile("Dances/ithappened.mp4") then
-	writefile("Dances/ithappened.mp4", 
+if not isfile("Dances/Mr. Scoops - Something has to happen (REUPLOAD).mp4") then
+	writefile("Dances/Mr. Scoops - Something has to happen (REUPLOAD).mp4", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Mr.%20Scoops%20-%20Something%20has%20to%20happen%20(REUPLOAD).mp4?raw=true"))
 	warn("Downloaded!")
 end
 
-if not isfile("Dances/weight.mp4") then
-	writefile("Dances/weight.mp4", 
+if not isfile("Dances/femtanyl - WEIGHTLESS!.mp4") then
+	writefile("Dances/femtanyl - WEIGHTLESS!.mp4", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl%20-%20WEIGHTLESS!.mp4?raw=true"))
 	warn("Downloaded!")
 end
 
-if not isfile("Dances/cursed.mp4") then
-	writefile("Dances/cursed.mp4", 
+if not isfile("Dances/h00dbyair x pretty girl (cursed mashups).mp4") then
+	writefile("Dances/h00dbyair x pretty girl (cursed mashups).mp4", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/h00dbyair%20x%20pretty%20girl%20(cursed%20mashups).mp4?raw=true"))
 	warn("Downloaded!")
 end
 
-if not isfile("Dances/hedge.mp4") then
-	writefile("Dances/hedge.mp4", 
+if not isfile("Dances/harinezumi all plats.mp4") then
+	writefile("Dances/harinezumi all plats.mp4", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/harinezumi%20_all%20plats_.mp4?raw=true"))
 	warn("Downloaded!")
 end
 
 
-warn("Done! You can now have fun! Or not actually, since you might sometimes get an error (in some people's cases)")
+warn("Done! You can now have fun! Or not actually, since you might sometimes get an error (in some people's cases).")
