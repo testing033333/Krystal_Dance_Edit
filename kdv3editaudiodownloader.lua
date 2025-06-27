@@ -11,51 +11,51 @@ end)
 
 if not isfile("Dances/buckshot.mp3") then
 	writefile("Dances/buckshot.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/%237%20-%20You%20are%20an%20Angel.mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Buckshot%20Roulette%20OST%20-%20You%20are%20an%20Angel%20(extended).mp4?raw=true"))
 	warn("Downloaded!")
 end
 
 if not isfile("Dances/charlixcx.mp3") then
 	writefile("Dances/charlixcx.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Charli%20XCX%20-%20speed%20drive%20(femtanyl%20remix).mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Charli%20XCX%20-%20speed%20drive%20(femtanyl%20remix).mp4?raw=true"))
 	warn("Downloaded!")
 end
 
 if not isfile("Dances/imgonna.mp3") then
 	writefile("Dances/imgonna.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/K1LL%20SOMEBODY.mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/K1LL%20SOMEBODY.mp4?raw=true"))
 	warn("Downloaded!")
 end
 
 if not isfile("Dances/bothered.mp3") then
 	writefile("Dances/bothered.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/MIX.%2002%20-%20BOTHERED!.mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/MIX.%2002%20-%20BOTHERED!.mp4?raw=true"))
 	warn("Downloaded!")
 end
 
 if not isfile("Dances/ithappened.mp3") then
 	writefile("Dances/ithappened.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Mr.%20Scoops%20-%20Something%20has%20to%20happen%20(REUPLOAD).mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Mr.%20Scoops%20-%20Something%20has%20to%20happen%20(REUPLOAD).mp4?raw=true"))
 	warn("Downloaded!")
 end
 
 if not isfile("Dances/weight.mp3") then
 	writefile("Dances/weight.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl%20-%20WEIGHTLESS!.mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl%20-%20WEIGHTLESS!.mp4?raw=true"))
 	warn("Downloaded!")
 end
 
 if not isfile("Dances/cursed.mp3") then
 	writefile("Dances/cursed.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/h00dbyair%20x%20pretty%20girl%20(cursed%20mashups).mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/h00dbyair%20x%20pretty%20girl%20(cursed%20mashups).mp4?raw=true"))
 	warn("Downloaded!")
 end
 
 if not isfile("Dances/hedge.mp3") then
 	writefile("Dances/hedge.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/harinezumi%20_all%20plats_.mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/harinezumi%20_all%20plats_.mp4?raw=true"))
 	warn("Downloaded!")
 end
 
 
-warn("Done! You can now have fun!")
+warn("Done! You can now have fun! Or not actually, since you might sometimes get an error (in some people's cases)")
