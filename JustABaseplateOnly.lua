@@ -1,17 +1,71 @@
-print("█   █  ███  █████ █████ ")
-print("██  █ █   █   █   █     ")
-print("█ █ █ █   █   █   ████  ")
-print("█  ██ █   █   █   █     ")
-print("█   █  ███    █   █████ ")
-task.wait(3)
-print("THIS IS VERY WIP!")
-print("I only made this edit for the fun of it until i know how to type some stuff, don't expect anything significant here in this script... yet.")
+
+
+if isfile and isfolder and writefile and (getsynasset or getcustomasset) and (not isfolder("Dances")) then
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Hey!";
+	Duration = 5;
+	Text = "This only shows up once if your new to this."
+})
+task.wait(1.500)
+local Bindable = Instance.new("BindableFunction")
+	local function Copy(e)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/songpack/refs/heads/main/kdv3editaudiodownloader.lua"))()
+		Bindable:Destroy()
+	end
+	Bindable.OnInvoke = Copy
+	game.StarterGui:SetCore("SendNotification",{
+		Title = "Mp3 Package ";
+		Text = "Click the download button to download the .mp3 package for Krystal Dance V3, its not a virus i swear.";
+		Duration = 10;
+		Callback = Bindable,
+		Button1 = "Download Audios";
+	})
+
+task.wait(1.500)
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Service";
+	Duration = 1;
+	Text = "Wait For the mp3 to finish downloading, then the script will run automatically."
+})
+task.wait(1.500)
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Service";
+	Duration = 1;
+	Text = "Audios Finished Downloading, Now Proceeding to reanimate."
+})
+task.wait(180)
+end
+
+
+
+task.wait(1.500)
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Krystal Dance V3";
+	Duration = 1;
+	Text = "Checking Updates..."
+})
+task.wait(1.500)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/songpack/refs/heads/main/kdv3editaudiodownloader.lua"))() 
+-- Automatically Downloads Updates ^
+                                ---  |
+task.wait(.1)
+warn("█   █  ███  █████ █████ ")
+warn("██  █ █   █   █   █     ")
+warn("█ █ █ █   █   █   ████  ")
+warn("█  ██ █   █   █   █     ")
+warn("█   █  ███    █   █████ ")
+warn("THIS IS VERY WIP!")
+warn("I only made this edit for the fun of it until i know how to type some stuff, don't expect anything significant here in this script... yet.")
 print("-------------------------------------------------------------------------")
 print("Log!")
 print("")
 print("6/25/25 - 8:07 PM PT")
-print("Thank you Sonix! This edit has finally existed!")
+print("❤️ Thank you, Sonix! this edit has finally existed! ❤️")
 print("One condition being that the autoloading clothes will be removed, as requested for safety.")
+print("")
+print("6/27/25 - 5:49 PM PT")
+print("With a couple failed attempts, I present to you... an audio downloader! Totally not taken from Theo's idea whatsoever 🥀.")
+print("As for the news about Crimson now taking the spot for Hemi's work. Yes, may they live a good life.)
 print("-------------------------------------------------------------------------")
 print("This script uses Gelatek's Reanimation, which gives out some pros.")
 print("1. It prevents accessories from floating away, helpful when you want to afk and not see yourself be an abomination or whatever.")
@@ -22,11 +76,6 @@ print("1. Hats will often fall off to the void commonly than the previous reanim
 print("2. Roblox will crash VERY often when you do an emote. This only happens when you do it while moving and when stopanim() is active")
 print("3. Some animations may get a little less smooth, the animations I have placed into the script might look rough, but if you ever get used to it, this wouldn't be included as a con.")
 print("-------------------------------------------------------------------------")
-game:GetService("StarterGui"):SetCore("SendNotification", {
-	    Title = "Hello!";
-	    Duration = 4;
-	    Text = ""
-})
 -- Credits:
 --[[
 	Gelatek - Everything
@@ -62,10 +111,10 @@ local Global = (getgenv and getgenv()) or shared
 
 if not Global.RayfieldConfig then Global.RayfieldConfig = {} end
 local PermanentDeath = Global.RayfieldConfig["Permanent Death"]  or true
-local CollideFling = Global.RayfieldConfig["Torso Fling"]  or true --toggle combat mode >:)
+local CollideFling = Global.RayfieldConfig["Torso Fling"]  or true -- changeable combat mode!
 local BulletEnabled = Global.RayfieldConfig["Bullet Enabled"] or false
 local KeepHairWelds = Global.RayfieldConfig["Keep Hats On Head"] or true
-local HeadlessPerma = Global.RayfieldConfig["Headless On Perma"] or true --used to hide chatbox and for people who had the face accessory
+local HeadlessPerma = Global.RayfieldConfig["Headless On Perma"] or false -- changeable headless (or bubblechat hider)
 local DisableAnimations = Global.RayfieldConfig["Disable Anims"] or false
 local Collisions = Global.RayfieldConfig["Enable Collisions"] or true
 local AntiVoid = Global.RayfieldConfig["Anti Void"] or true
@@ -589,9 +638,15 @@ if not DisableAnimations then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekReanimate/main/Addons/Animations.lua"))()
 end
     game:GetService("StarterGui"):SetCore("SendNotification", {
-	    Title = "Making Preparations!";
+	    Title = "Prepared Avatar!";
 	    Duration = 4;
-	    Text = "Gelatek Reanimation is now active."
+	    Text = "Gelatek Reanimation is now active. Expect hats falling to the void."
+})
+task.wait(3)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+	    Title = "Keep moving or rejoin";
+	    Duration = 4;
+	    Text = "If you want to keep your hats."
 })
 task.wait(1)
     game:GetService("StarterGui"):SetCore("SendNotification", {
@@ -605,7 +660,7 @@ task.wait(1)
 	    Duration = 20;
 	    Text = "Check the Console for any updates within this script."
 })
-task.wait(4)
+task.wait(7)
 -- Krystal Dance V3, Made by Hemi (es muy janky)
 if not getgenv()["Animator"] then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
@@ -627,9 +682,9 @@ lol = true
 end
 local sprinting = false 
 local is = game:GetService("InsertService")
-local idleanim = is:LoadLocalAsset("rbxassetid://83465205704188") --noli
-local walkanim = is:LoadLocalAsset("rbxassetid://73210090104463") --drink 
-local sprintanim = is:LoadLocalAsset("rbxassetid://117120797008387") -- just a basic sprint
+local idleanim = is:LoadLocalAsset("rbxassetid://83465205704188")
+local walkanim = is:LoadLocalAsset("rbxassetid://73210090104463")
+local sprintanim = is:LoadLocalAsset("rbxassetid://117120797008387")
 local randompart = Instance.new("Part",game:GetService("RunService"))
 local coolparticles = is:LoadLocalAsset("rbxassetid://87299663038091").ParticleAttachment
 coolparticles.Parent = randompart
@@ -637,7 +692,7 @@ local playbacktrack = true
 local script = Instance.new("LocalScript")
 local OxideApi = loadstring(game:HttpGet("https://raw.githubusercontent.com/sparezirt/Utility/refs/heads/main/.github/SonixApi"))()
 local timeposcur = 0 
-OxideApi.Notification("Krystal Dance V3, Made by Hemi, Modded by Sonixery",10)
+OxideApi.Notification("Krystal Dance Modded V1 by Sonixery, Full Credits to Crimson",10)
 local playanother = false
 local playing = false
 local dancing = false
@@ -1009,7 +1064,7 @@ end
        end
    end
            end   
-           local exploit = "shitsploit"
+		   local exploit = "shitsploit"
         pcall(function()
             exploit = getexecutorname()
         end)
@@ -1018,6 +1073,27 @@ end
         idwithoutthatbit= string.gsub(id,"Dances/","")
         if not isfile(id) then 
          writefile(id,game:HttpGet("https://github.com/sparezirt/music/raw/refs/heads/main/"..idwithoutthatbit))
+        end
+       repeat task.wait() until isfile(id)
+    end
+        local s = Instance.new("Sound")
+        s.Parent = game:GetService("RunService")
+        s.SoundId = getcustomasset(id)
+        task.spawn(function()
+            task.wait(1)
+            s:Destroy()
+        end)
+        return s.SoundId
+    end
+           local exploit = "shitsploit"
+        pcall(function()
+            exploit = getexecutorname()
+        end)
+	local customasset = function(id)
+        if exploit ~= "CaetSploit" then
+        idwithoutthatbit= string.gsub(id,"Dances/","")
+        if not isfile(id) then 
+         writefile(id,game:HttpGet("https://github.com/testing033333/music/tree/Audio-1"..idwithoutthatbit))
         end
        repeat task.wait() until isfile(id)
     end
@@ -1041,9 +1117,9 @@ end
             sound69.PlaybackSpeed = 1
             if playbacktrack == true then 
                            if lol ~= true then 
-            sound69.SoundId = customasset("Dances/boom.mp3")
+            sound69.SoundId = customasset("Dances/bothered.mp3")
                 else 
-                      sound69.SoundId = customasset("Dances/boom.mp3")  
+                      sound69.SoundId = customasset("Dances/bothered.mp3")  
                 end
             sound69.Volume = .75
             else 
@@ -2306,7 +2382,7 @@ char.Humanoid:GetPropertyChangedSignal("MoveDirection"):Connect(function()
 	stopanim()
 	fwait(1/500)
         if idle == true and walking == false and char.Humanoid.MoveDirection == Vector3.new(0,0,0) and dancing == false and playanother==true then
-            playanim(83465205704188,1,false,idleanim ) --see line 630
+            playanim(83465205704188,1,false,idleanim )
             end
         elseif char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and walking == false then 
             char.Humanoid.WalkSpeed = 14*char:GetScale()
@@ -2317,12 +2393,12 @@ char.Humanoid:GetPropertyChangedSignal("MoveDirection"):Connect(function()
     	 if sprinting == false then 
                  char.Humanoid.WalkSpeed = 6*char:GetScale()
             if walking == true and idle == false and  char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and playanother==true  then 
-                playanim(73210090104463,0.5,false,walkanim) --see line 631
+                playanim(73210090104463,0.5,false,walkanim)
             end
         else
                 char.Humanoid.WalkSpeed = 33*char:GetScale()
             if walking == true and idle == false and  char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and playanother==true  then 
-                playanim(117120797008387,2.5,false,sprintanim) --see line 632
+                playanim(117120797008387,2.5,false,sprintanim)
             end
     end
 end
@@ -2468,16 +2544,23 @@ else
     idle = false 
 end
 end)
+--sonixery was here
+--hi skid
+--you know i really hate skids...
+
+--test_033333 was here
+--you already know it dude 
+--im just here fucking around the animation and sound ids or whatever
 game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Original KDV3";
 	Duration = 2;
-	Text = "Credits to Hemi/Nitro-GT"
+	Text = "Credits to Hemi/Nitro-GT (Former Oxide Owner)"
 })
 task.wait(3)
 game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "KDv3 Modded";
 	Duration = 2;
-	Text = "To Sonixery"
+	Text = "To SonixDev/Crimson"
 })
 task.wait(3)
 game:GetService("StarterGui"):SetCore("SendNotification", {
@@ -2491,6 +2574,4 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Duration = 2;
 	Text = "To Test_033333/Venlafaxine"
 })
---sonixery was here
---hi skid
---you know i really hate skids...
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
