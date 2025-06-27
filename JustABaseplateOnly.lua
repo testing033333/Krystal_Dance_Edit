@@ -638,9 +638,9 @@ if not DisableAnimations then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekReanimate/main/Addons/Animations.lua"))()
 end
     game:GetService("StarterGui"):SetCore("SendNotification", {
-	    Title = "Prepared Avatar!";
+	    Title = "Prepared!";
 	    Duration = 4;
-	    Text = "Gelatek Reanimation is now active. Expect hats falling to the void."
+	    Text = "Gelatek Reanimation is now active. Expect a bug to happen."
 })
 task.wait(3)
     game:GetService("StarterGui"):SetCore("SendNotification", {
