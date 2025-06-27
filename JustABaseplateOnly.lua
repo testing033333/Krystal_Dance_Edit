@@ -2547,10 +2547,6 @@ end)
 --sonixery was here
 --hi skid
 --you know i really hate skids...
-
---test_033333 was here
---you already know it dude 
---im just here fucking around the animation and sound ids or whatever
 game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Original KDV3";
 	Duration = 2;
@@ -2575,3 +2571,4 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Text = "To Test_033333/Venlafaxine"
 })
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
+-- dont ask why i put this here -test_033333
