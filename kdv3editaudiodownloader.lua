@@ -27,7 +27,7 @@ if not isfile("Dances/K1LL SOMEBODY.mp4") then
 	warn("Downloaded!")
 end
 
-if not isfile("Dances/MIX. 02 - BOTHERED!.mp4.mp4") then
+if not isfile("Dances/MIX. 02 - BOTHERED!.mp4") then
 	writefile("Dances/MIX. 02 - BOTHERED!.mp4", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/MIX.%2002%20-%20BOTHERED!.mp4?raw=true"))
 	warn("Downloaded!")
