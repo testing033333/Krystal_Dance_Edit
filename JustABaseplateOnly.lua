@@ -1117,9 +1117,9 @@ end
             sound69.PlaybackSpeed = 1
             if playbacktrack == true then 
                            if lol ~= true then 
-            sound69.SoundId = customasset("Dances/MIX. 02 - BOTHERED!.mp4")
+            sound69.SoundId = customasset("Dances/MIX. 02 - BOTHERED!.ogg")
                 else 
-                      sound69.SoundId = customassetDances/MIX. 02 - BOTHERED!.mp4")  
+                      sound69.SoundId = customasset("Dances/MIX. 02 - BOTHERED!.ogg")  
                 end
             sound69.Volume = .75
             else 
