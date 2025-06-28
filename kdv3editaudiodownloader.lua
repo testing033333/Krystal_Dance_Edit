@@ -9,51 +9,51 @@ task.spawn(function()
 	warn("Downloading a couple songs!!")
 end)
 
-if not isfile("Dances/Buckshot Roulette OST - You are an Angel (extended).mp4") then
-	writefile("Dances/Buckshot Roulette OST - You are an Angel (extended).mp4", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Buckshot%20Roulette%20OST%20-%20You%20are%20an%20Angel%20(extended).mp4?raw=true"))
+if not isfile("Dances/Buckshot Roulette OST - You are an Angel (extended).ogg") then
+	writefile("Dances/Buckshot Roulette OST - You are an Angel (extended).ogg", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Buckshot%20Roulette%20OST%20-%20You%20are%20an%20Angel%20(extended).ogg?raw=true"))
 	warn("Downloaded!")
 end
 
-if not isfile("Dances/Charli XCX - speed drive (femtanyl remix).mp4") then
-	writefile("Dances/Charli XCX - speed drive (femtanyl remix).mp4", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Charli%20XCX%20-%20speed%20drive%20(femtanyl%20remix).mp4?raw=true"))
+if not isfile("Dances/Charli XCX - speed drive (femtanyl remix).ogg") then
+	writefile("Dances/Charli XCX - speed drive (femtanyl remix).ogg", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Charli%20XCX%20-%20speed%20drive%20(femtanyl%20remix).ogg?raw=true"))
 	warn("Downloaded!")
 end
 
-if not isfile("Dances/K1LL SOMEBODY.mp4") then
-	writefile("Dances/K1LL SOMEBODY.mp4", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/K1LL%20SOMEBODY.mp4?raw=true"))
+if not isfile("Dances/K1LL SOMEBODY.ogg") then
+	writefile("Dances/K1LL SOMEBODY.ogg", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/K1LL%20SOMEBODY.ogg?raw=true"))
 	warn("Downloaded!")
 end
 
-if not isfile("Dances/MIX. 02 - BOTHERED!.mp4") then
-	writefile("Dances/MIX. 02 - BOTHERED!.mp4", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/MIX.%2002%20-%20BOTHERED!.mp4?raw=true"))
+if not isfile("Dances/MIX. 02 - BOTHERED!.ogg") then
+	writefile("Dances/MIX. 02 - BOTHERED!.ogg", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/MIX.%2002%20-%20BOTHERED!.ogg?raw=true"))
 	warn("Downloaded!")
 end
 
-if not isfile("Dances/Mr. Scoops - Something has to happen (REUPLOAD).mp4") then
-	writefile("Dances/Mr. Scoops - Something has to happen (REUPLOAD).mp4", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Mr.%20Scoops%20-%20Something%20has%20to%20happen%20(REUPLOAD).mp4?raw=true"))
+if not isfile("Dances/Mr. Scoops - Something has to happen (REUPLOAD).ogg") then
+	writefile("Dances/Mr. Scoops - Something has to happen (REUPLOAD).ogg", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Mr.%20Scoops%20-%20Something%20has%20to%20happen%20(REUPLOAD).ogg?raw=true"))
 	warn("Downloaded!")
 end
 
-if not isfile("Dances/femtanyl - WEIGHTLESS!.mp4") then
-	writefile("Dances/femtanyl - WEIGHTLESS!.mp4", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl%20-%20WEIGHTLESS!.mp4?raw=true"))
+if not isfile("Dances/femtanyl - WEIGHTLESS!.ogg") then
+	writefile("Dances/femtanyl - WEIGHTLESS!.ogg", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl%20-%20WEIGHTLESS!.ogg?raw=true"))
 	warn("Downloaded!")
 end
 
-if not isfile("Dances/h00dbyair x pretty girl (cursed mashups).mp4") then
-	writefile("Dances/h00dbyair x pretty girl (cursed mashups).mp4", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/h00dbyair%20x%20pretty%20girl%20(cursed%20mashups).mp4?raw=true"))
+if not isfile("Dances/h00dbyair x pretty girl (cursed mashups).ogg") then
+	writefile("Dances/h00dbyair x pretty girl (cursed mashups).ogg", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/h00dbyair%20x%20pretty%20girl%20(cursed%20mashups).ogg?raw=true"))
 	warn("Downloaded!")
 end
 
-if not isfile("Dances/harinezumi all plats.mp4") then
-	writefile("Dances/harinezumi all plats.mp4", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/harinezumi%20_all%20plats_.mp4?raw=true"))
+if not isfile("Dances/harinezumi all plats.ogg") then
+	writefile("Dances/harinezumi all plats.ogg", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/harinezumi%20_all%20plats_.ogg?raw=true"))
 	warn("Downloaded!")
 end
 
