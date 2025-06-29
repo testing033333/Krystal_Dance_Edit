@@ -1,3 +1,5 @@
+-- i totally fucking hated when this shit bugs the fuck out of the files so i wont update this shit
+
 if not isfolder("Dances") then
 	makefolder("Dances")
 end
