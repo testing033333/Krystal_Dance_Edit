@@ -74,7 +74,7 @@
 	print("6/29/25 - 7:58 PM PT")
 	print("Changed reanimation (still giving credit to theo, though)!!!!")
 	print("Hat falling chances have now been reduced!")
-	print("Antifling no longer needed!")
+	print("Antifling no longer needed (maybe if you needed an extra step of protection against flingers)!")
 	print("And, now easily customizable!!!!")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
