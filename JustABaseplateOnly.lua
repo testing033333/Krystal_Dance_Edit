@@ -643,7 +643,7 @@
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekReanimate/main/Addons/Animations.lua"))()
 	end
 		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "Prepared Avatar!";
+			Title = "Prepared!";
 			Duration = 4;
 			Text = "Gelatek Reanimation is now active. Expect hats falling to the void."
 	})
@@ -1566,7 +1566,7 @@
 	stopanim()
 	dancing = true
 	task.wait(.005)
-	sound69.SoundId = customasset("Dances/AffectedFight.mp3")
+	sound69.SoundId = customasset("Dances/Mr. Scoops - Something has to happen (REUPLOAD).ogg")
 	sound69.PlaybackSpeed = 1
 	timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1644,7 +1644,7 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/million.mp3")
+			sound69.SoundId = customasset("Dances/7 - You are an Angel.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(109123683211464)
@@ -1761,7 +1761,7 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/duck.mp3")
+			sound69.SoundId = customasset("Dances/harinezumi _all plats_.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(13357063395,1,true,nil,false)
@@ -1773,10 +1773,10 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/espresso.mp3")
+			sound69.SoundId = customasset("Dances/h00dbyair x pretty girl (cursed mashups).ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(87342159331194)
+			playanim(87342159331194,1.5)
 		else
 			stopanim()
 		end
@@ -1905,10 +1905,10 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/misc.mp3")
+			sound69.SoundId = customasset("Dances/Charli XCX - speed drive (femtanyl remix).ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(100305033962391,2)
+			playanim(100305033962391,4)
 		else
 			stopanim()
 		end
@@ -1917,10 +1917,10 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/jung.mp3")
+			sound69.SoundId = customasset("Dances/K1LL SOMEBODY.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(71723925114737)
+			playanim(71723925114737,1.25)
 		else
 			stopanim()
 		end
