@@ -74,7 +74,7 @@
 	print("6/29/25 - 7:58 PM PT")
 	print("Changed reanimation (still giving credit to theo, though)!!!!")
 	print("Hat falling chances have now been reduced!")
-	print("Antifling no longer needed (maybe if you needed an extra step of protection against flingers)!")
+	print("Antifling no longer needed (somewhat if you needed an extra step of protection against flingers)!")
 	print("And, now easily customizable!!!!")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
@@ -128,20 +128,15 @@ wait(0.5)
 
 for _, part in pairs(character:GetDescendants()) do
 if part:IsA("BasePart") then
-part.CanCollide = true
+part.CanCollide = false
 end
 end
 		game:GetService("StarterGui"):SetCore("SendNotification", {
 			Title = "Prepared!";
 			Duration = 4;
-			Text = "Gelatek Reanimation is now active. Expect hats falling to the void."
+			Text = "Gelatek Reanimation is now active."
 	})
-	task.wait(3)
-		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "Keep moving or rejoin";
-			Duration = 4;
-			Text = "If you want to keep your hats."
-	})
+	
 	task.wait(1)
 		game:GetService("StarterGui"):SetCore("SendNotification", {
 			Title = "❤️";
