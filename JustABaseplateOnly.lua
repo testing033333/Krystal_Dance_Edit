@@ -1395,7 +1395,7 @@
 			sound69.SoundId = customasset("Dances/ily.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(140670228658366)
+			playanim(140670228658366,30)
 		else
 			stopanim()
 			
@@ -1543,7 +1543,7 @@
 			sound69.SoundId = customasset("Dances/ITS TIME.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(14887006269)
+			playanim(14887006269,1.05)
 		else
 			stopanim()
 			
@@ -1809,10 +1809,10 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/tort.mp3")
+			sound69.SoundId = customasset("Dances/MIX. 02 - BOTHERED!.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(79630525228564)
+			playanim(79630525228564,2)
 		else
 			stopanim()
 		end
