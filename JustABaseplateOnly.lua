@@ -72,7 +72,7 @@
         print("I changed some music btw idk if y'all ok with it.")
 	print("")
 	print("6/29/25 - 7:58 PM PT")
-	print("Changed reanimation (still giving credit to theo, though)!!!!")
+	print("Changed reanimation!!!!")
 	print("Hat falling chances have now been reduced!")
 	print("Antifling no longer needed (somewhat if you needed an extra step of protection against flingers)!")
 	print("And, now easily customizable!!!!")
@@ -82,7 +82,7 @@
 	print("2. It stops body parts from going chaotic. Any animation that is really fast causes your limbs to detach. With Gelatek, say goodbye to that!")
 	print("")
 	print("While it does help with a stable character, it has quite a handful of cons.")
-	print("1. Hats will often fall off to the void commonly than the previous reanimation, which means Handle isn't handling anything. This is also the case when your at a low FPS, which I find it strange that happened.")
+	print("1. Hats will often fall off to the void commonly than the previous reanimation, which means Handle isn't handling anything. This is also the case when your at a low FPS, which I find it strange that happened (SOLVED WITH THE UPDATED VERSION OF THE REANIMATION!!!)")
 	print("2. Roblox will crash VERY often when you do an emote. This only happens when you do it while moving and when stopanim() is active")
 	print("3. Some animations may get a little less smooth, the animations I have placed into the script might look rough, but if you ever get used to it, this wouldn't be included as a con.")
 	print("-------------------------------------------------------------------------")
@@ -2046,9 +2046,9 @@ end
 	})
 	task.wait(3)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Gelatek Reanimation Modified";
+		Title = "Updated Gelatek Reanim";
 		Duration = 2;
-		Text = "To Theo/Paradigm"
+		Text = "To Gelatekussy"
 	})
 	task.wait(3)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
