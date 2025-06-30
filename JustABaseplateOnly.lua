@@ -755,10 +755,10 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/gangnamm.mp3")
+			sound69.SoundId = customasset("Dances/c00lkidd1 (feat. ilyhiryu).mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(12438774071)
+			playanim(75462948983147,1.175)
 		else
 			stopanim()
 			
@@ -824,10 +824,10 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/PokeDance.mp3")
+			sound69.SoundId = customasset("Dances/jump.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(18986687692)
+			playanim(75462948983147,1.225)
 		else
 			stopanim()
 			
@@ -890,10 +890,10 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/ColorYourNight.mp3")
+			sound69.SoundId = customasset("Dances/Turbine2.61.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(75405139558088,0.75)
+			playanim(75462948983147,1.0)
 		else
 			stopanim()
 			
@@ -904,10 +904,10 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/Mystery.mp3")
+			sound69.SoundId = customasset("Dances/PSYCHO.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(131401099812672)
+			playanim(75462948983147,1.175)
 		else
 			stopanim()
 			
@@ -930,10 +930,10 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/Rewind.mp3")
+			sound69.SoundId = customasset("Dances/wush2 (feat. ilyhiryu).mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(140376973204352)
+			playanim(75462948983147,1.175)
 		else
 			stopanim()
 			
