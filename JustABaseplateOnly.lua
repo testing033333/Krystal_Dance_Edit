@@ -680,11 +680,11 @@ end
 		stopanim()
 	dancing = true
 	task.wait(.005)
-		sound69.SoundId = customasset("Dances/RatDance.mp3")
+		sound69.SoundId = customasset("Dances/MIX. 01 - PICKMEUP!.mp3")
 		sound69.PlaybackSpeed = 1
 		timeposcur = sound69.TimePosition 
 	sound69:Play()
-		playanim(128853270774115)
+		playanim(128853270774115,1.25)
 	else
 		stopanim()
 		sound69.PlaybackSpeed = 1
