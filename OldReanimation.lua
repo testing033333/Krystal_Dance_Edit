@@ -1495,7 +1495,7 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/Laidback.mp3")
+			sound69.SoundId = customasset("Dances/F33L1NG SPRUNK111.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(131155721688011)
@@ -1508,7 +1508,7 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/bloodpop.mp3")
+			sound69.SoundId = customasset("Dances/H3AD4CHE - Femtanyl-Inspired Song by Deimos.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(111038494387073)
