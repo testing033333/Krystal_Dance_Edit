@@ -665,11 +665,11 @@ end
 	stopanim()
 	dancing = true
 	task.wait(.005)
-	sound69.SoundId = customasset("Dances/boogie.mp3")
-	sound69.PlaybackSpeed = 2
+	sound69.SoundId = customasset("Dances/NX CHVXS.mp3")
+	sound69.PlaybackSpeed = 1
 	timeposcur = sound69.TimePosition 
 	sound69:Play()
-	playanim(16769959846)
+	playanim(16769959846,1.5)
 			else
 	stopanim()
 	sound69.PlaybackSpeed = 1
