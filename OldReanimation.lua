@@ -1081,10 +1081,10 @@
 				stopanim()
 	dancing = true
 	task.wait(.005)
-				sound69.SoundId = customasset("Dances/rat.mp3")
+				sound69.SoundId = customasset("Dances/asdf.mp3")
 				timeposcur = sound69.TimePosition 
 	sound69:Play()
-				playanim(106353328250763)
+				playanim(98605693116996)
 			else
 				stopanim()
 			end
@@ -1093,11 +1093,11 @@
 	stopanim()
 	dancing = true
 	task.wait(.005)
-	sound69.SoundId = customasset("Dances/boogie.mp3")
-	sound69.PlaybackSpeed = 2
+	sound69.SoundId = customasset("Dances/NX CHVXS.mp3")
+	sound69.PlaybackSpeed = 1
 	timeposcur = sound69.TimePosition 
 	sound69:Play()
-	playanim(16769959846)
+	playanim(16769959846,1.25)
 			else
 	stopanim()
 	sound69.PlaybackSpeed = 1
@@ -1123,7 +1123,7 @@
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/ScoutLaugh.mp3")
+			sound69.SoundId = customasset("Dances/funny.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1237,7 +1237,7 @@
 			stopanim()
 		dancing = true
 		task.wait(.005)
-			sound69.SoundId = customasset("Dances/Conga.mp3")
+			sound69.SoundId = customasset("Dances/funny.mp3")
 			char.Humanoid.WalkSpeed = 4*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1265,7 +1265,7 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/kazot.mp3")
+			sound69.SoundId = customasset("Dances/funny.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(114036336168567,1)
@@ -1375,10 +1375,10 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/XO.mp3")
+			sound69.SoundId = customasset("Dances/apologize.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(73559770055600)
+			playanim(73559770055600,0.875)
 		else
 			stopanim()
 			
@@ -1388,7 +1388,7 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/ElevatorMusic2.mp3")
+			sound69.SoundId = customasset("Dances/funny.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(16361576857)
@@ -1440,10 +1440,10 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/faster.ogg")
+			sound69.SoundId = customasset("Dances/GIRL HELL 1999.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(10609437925)
+			playanim(10609437925,2)
 		else
 			stopanim()
 			
@@ -1531,10 +1531,10 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/leftright.mp3")
+			sound69.SoundId = customasset("Dances/PUSH UR T3MPRR.mp3")
 			timeposcur = sound69.TimePosition 
 			sound69:Play()
-			playanim(137845929482571)
+			playanim(86067433847393,0.25)
 		else
 			stopanim()
 			
