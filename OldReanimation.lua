@@ -1511,7 +1511,7 @@
 			sound69.SoundId = customasset("Dances/H3AD4CHE - Femtanyl-Inspired Song by Deimos.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(111038494387073,1.15)
+			playanim(111038494387073,1.5)
 		else
 			stopanim()
 			
