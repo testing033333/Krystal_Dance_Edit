@@ -947,7 +947,7 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/XO.mp3")
+			sound69.SoundId = customasset("Dances/apologize.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(73559770055600)
@@ -960,7 +960,7 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/ElevatorMusic2.mp3")
+			sound69.SoundId = customasset("Dances/funny.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(16361576857)
