@@ -695,7 +695,7 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/ScoutLaugh.mp3")
+			sound69.SoundId = customasset("Dances/funny.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -809,7 +809,7 @@ end
 			stopanim()
 		dancing = true
 		task.wait(.005)
-			sound69.SoundId = customasset("Dances/Conga.mp3")
+			sound69.SoundId = customasset("Dances/funny.mp3")
 			char.Humanoid.WalkSpeed = 4*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -837,7 +837,7 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/kazot.mp3")
+			sound69.SoundId = customasset("Dances/funny.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(114036336168567,1)
