@@ -653,10 +653,10 @@ end
 				stopanim()
 	dancing = true
 	task.wait(.005)
-				sound69.SoundId = customasset("Dances/rat.mp3")
+				sound69.SoundId = customasset("Dances/asdf.mp3")
 				timeposcur = sound69.TimePosition 
 	sound69:Play()
-				playanim(106353328250763)
+				playanim(98605693116996)
 			else
 				stopanim()
 			end
