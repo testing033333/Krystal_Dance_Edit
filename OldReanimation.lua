@@ -2258,7 +2258,7 @@
 		end
 		end
 	end
-	if k == "minus" then 
+	if k == "leftctrl" then 
 		sprinting = not sprinting
 	end
 	if k == "m" then 
