@@ -1519,7 +1519,7 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/#1 - Blank Shell.mp3")
+			sound69.SoundId = customasset("Dances/blank.mp3")
 			timeposcur = sound69.TimePosition
 	sound69:Play()
 			playanim(90819860436349)
