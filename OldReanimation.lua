@@ -1787,7 +1787,7 @@
 			char.Humanoid.WalkSpeed = 6*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(86485871533985,0.15)
+			playanim(86485871533985,0.25)
 		else
 			stopanim()
 		end
