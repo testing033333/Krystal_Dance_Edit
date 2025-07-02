@@ -745,8 +745,6 @@ end
 	dancing = true
 	task.wait(.005)
 			sound69.SoundId = customasset("Dances/bluudud2.mp3")
-			sound69.PlaybackSpeed = 2
-			char.Humanoid.WalkSpeed = 4*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(75462948983147,1.175)
@@ -921,10 +919,10 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/Lagtrain.mp3")
+			sound69.SoundId = customasset("Dances/avernfix.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(131559207454945)
+			playanim(131559207454945,0.8)
 		else
 			stopanim()
 			
