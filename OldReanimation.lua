@@ -1276,10 +1276,10 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/QQAZBOOTLEGG (EDIT Version).ogg")
+			sound69.SoundId = customasset("Dances/pr3ttyprincess3.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(75462948983147,1.075)
+			playanim(75462948983147,1.175)
 		else
 			stopanim()
 			
