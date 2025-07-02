@@ -1795,10 +1795,10 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/rotten.mp3")
+			sound69.SoundId = customasset("Dances/QQAZBOOTLEGG (EDIT Version).ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(109990576374190,2)
+			playanim(109990576374190,1)
 		else
 			stopanim()
 		end
