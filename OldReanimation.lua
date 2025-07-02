@@ -1783,10 +1783,11 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/1998 hardstyl3 (Ultra Slowed).mp3")
+			sound69.SoundId = customasset("Dances/1998 hardstyl3 (Ultra Slowed).mp3
+			char.Humanoid.WalkSpeed = 6*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(86485871533985,0.85)
+			playanim(86485871533985,0.7)
 		else
 			stopanim()
 		end
