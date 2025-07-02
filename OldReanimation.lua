@@ -1315,10 +1315,10 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/Turbine2.61.mp3")
+			sound69.SoundId = customasset("Dances/lonely.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(75462948983147,1.0)
+			playanim(92699725136780)
 		else
 			stopanim()
 			
@@ -1869,10 +1869,10 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/lonely.mp3")
+			sound69.SoundId = customasset("Dances/Turbine2.61.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(92699725136780)
+			playanim(75462948983147,1.0)
 		else
 			stopanim()
 			
