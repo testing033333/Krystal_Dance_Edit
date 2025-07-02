@@ -1835,7 +1835,7 @@ end
 		end
 		end
 	end
-	if k == "leftcontrol" then 
+	if k == "minus" then 
 		sprinting = not sprinting
 	end
 	if k == "m" then 
