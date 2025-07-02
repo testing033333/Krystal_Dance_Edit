@@ -2258,7 +2258,7 @@
 		end
 		end
 	end
-	if k == "leftctrl" then 
+	if k == "leftcontrol" then 
 		sprinting = not sprinting
 	end
 	if k == "m" then 
