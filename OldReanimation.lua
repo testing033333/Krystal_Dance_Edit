@@ -1856,7 +1856,7 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/CarShearer.mp3")
+			sound69.SoundId = customasset("Dances/inter_92 (feat. ilyhiryu).mp3")
 			timeposcur = sound69.TimePosition
 			sound69:Play()
 			playanim(82286209518466,1.95)
