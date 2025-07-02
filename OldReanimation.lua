@@ -1786,7 +1786,7 @@
 			char.Humanoid.WalkSpeed = 6*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(86485871533985,0.25)
+			playanim(86485871533985,0.777)
 		else
 			stopanim()
 		end
@@ -1798,7 +1798,7 @@
 			sound69.SoundId = customasset("Dances/QQAZBOOTLEGG (EDIT Version).ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(109990576374190,1.75)
+			playanim(109990576374190,1.55)
 		else
 			stopanim()
 		end
