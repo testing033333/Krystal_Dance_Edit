@@ -1759,7 +1759,7 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/doodle.mp3")
+			sound69.SoundId = customasset("Dances/linga guli guli.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(137721173051346)
