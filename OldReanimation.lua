@@ -1,5 +1,4 @@
- 
--- Credits:
+ -- Credits:
 	--[[
 		Gelatek - Everything
 		Emper - Optimization Tips
