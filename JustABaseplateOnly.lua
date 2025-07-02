@@ -1433,6 +1433,9 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			timeposcur = sound69.TimePosition
+	sound69:Play()
 			playanim(90819860436349)
 		else
 			stopanim()
@@ -1456,7 +1459,7 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/heavylove.mp3")
+			sound69.SoundId = customasset("Dances/BYEBYE.WAV - SXCREDMANE (official youtube release).mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(85856686932206)
@@ -1481,10 +1484,10 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/StockDance.mp3")
+			sound69.SoundId = customasset("Dances/sweet rally 2.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(15039780593)
+			playanim(15039780593,1.15)
 		else
 			stopanim()
 		end
