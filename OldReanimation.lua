@@ -1798,7 +1798,7 @@
 			sound69.SoundId = customasset("Dances/QQAZBOOTLEGG (EDIT Version).ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(109990576374190,1)
+			playanim(109990576374190,1.5)
 		else
 			stopanim()
 		end
