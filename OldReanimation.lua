@@ -1034,9 +1034,9 @@
 				sound69.PlaybackSpeed = 1
 				if playbacktrack == true then 
 							if lol ~= true then 
-				sound69.SoundId = customasset("Dances/NO MERCY III [FULL ALBUM].mp3")
+				sound69.SoundId = customasset("Dances/Amalgam But Breakcore (Filler).mp3")
 					else 
-						sound69.SoundId = customasset("Dances/NO MERCY III [FULL ALBUM].mp3")  
+						sound69.SoundId = customasset("Dances/Amalgam But Breakcore (Filler).mp3")  
 					end
 				sound69.Volume = .75
 				else 
