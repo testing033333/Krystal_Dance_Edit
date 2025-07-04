@@ -48,6 +48,21 @@
 	-- loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal-Dance-V3-Edit/refs/heads/main/kdv3editaudiodownloader.lua"))() 
 	-- Automatically Downloads Updates ^
 									---  |
+local Players = game:GetService("Players")
+local StarterGui = game:GetService("StarterGui")
+
+local player = Players.LocalPlayer
+
+wait(1)
+
+local username = player.Name
+local displayName = player.DisplayName
+
+StarterGui:SetCore("SendNotification", {
+    Title = "Loading Everything!";
+    Text = "Hello, " .. displayName .. " (" .. username .. ")!";
+    Duration = 5 
+})
 	task.wait(.1)
 	warn("█   █  ███  █████ █████ ")
 	warn("██  █ █   █   █   █     ")
@@ -150,11 +165,11 @@ end
 	})
 	task.wait(1)
 		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "Loading script...";
-			Duration = 20;
+			Title = "Have fun!";
+			Duration = 4;
 			Text = "Check the Console for any updates within this script."
 	})
-	task.wait(7)
+	task.wait(3)
 	-- Krystal Dance V3, Made by Hemi (es muy janky)
 	if not getgenv()["Animator"] then
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
