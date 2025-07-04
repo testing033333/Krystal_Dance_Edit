@@ -1,4 +1,20 @@
- -- Credits:
+local Players = game:GetService("Players")
+local StarterGui = game:GetService("StarterGui")
+
+local player = Players.LocalPlayer
+
+wait(1)
+
+local username = player.Name
+local displayName = player.DisplayName
+
+StarterGui:SetCore("SendNotification", {
+    Title = "Loading Everything!";
+    Text = "Hello, " .. displayName .. " (" .. username .. ")!";
+    Duration = 5 
+})
+
+-- Credits:
 	--[[
 		Gelatek - Everything
 		Emper - Optimization Tips
@@ -571,13 +587,7 @@
 			Duration = 4;
 			Text = "Thank you for using this script."
 	})
-	task.wait(1)
-		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "Loading script...";
-			Duration = 20;
-			Text = ""
-	})
-	task.wait(7)
+	task.wait(3)
 	-- Krystal Dance V3, Made by Hemi (es muy janky)
 	if not getgenv()["Animator"] then
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
