@@ -1180,7 +1180,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.SoundId = customasset("Dances/bluudud2.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(75462948983147,1.175)
+			playanim(11082671272,5.02)
 		else
 			stopanim()
 			
@@ -1193,7 +1193,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.SoundId = customasset("Dances/c00lkidd1 (feat. ilyhiryu).mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(75462948983147,1.175)
+			playanim(133783833234323,1.1)
 		else
 			stopanim()
 			
@@ -1288,7 +1288,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.SoundId = customasset("Dances/pr3ttyprincess3.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(75462948983147,1.175)
+			playanim(75511909705314,1.95)
 		else
 			stopanim()
 			
@@ -1328,7 +1328,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.SoundId = customasset("Dances/lonely.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(92699725136780,1.025)
+			playanim(92699725136780)
 		else
 			stopanim()
 			
@@ -1633,7 +1633,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.SoundId = customasset("Dances/202.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(118452043589079)
+			playanim(75462948983147)
 		else
 			stopanim()
 			
@@ -2476,7 +2476,7 @@ StarterGui:SetCore("SendNotification", {
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "Original KDV3";
 		Duration = 2;
-		Text = "Credits to Hemi/Nitro-GT (Former Oxide Owner)"
+		Text = "Credits to Hemi/Nitro-GT (Former Oxide Owner, now controversial...)"
 	})
 	task.wait(3)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
@@ -2488,7 +2488,7 @@ StarterGui:SetCore("SendNotification", {
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "Modded Gelatek Reanim";
 		Duration = 2;
-		Text = "To Theo/Paradigm"
+		Text = "To Theo/Paradigm (which vro didnt actually do much about it)"
 	})
 	task.wait(3)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
@@ -2499,3 +2499,4 @@ StarterGui:SetCore("SendNotification", {
 	--sonixery was here
 	--hi skid
 	--you know i really hate skids...
+				--dont mind me putting this thing also fuck you Scriptcrear
