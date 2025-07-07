@@ -1908,7 +1908,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.SoundId = customasset("Dances/yamero.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(137765549462705)
+			playanim(137765549462705,2)
 		else
 			stopanim()
 			
