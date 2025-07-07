@@ -96,6 +96,8 @@ StarterGui:SetCore("SendNotification", {
 	print("7/2/25 - 7:04 AM PT")
 	print("Old reanimation has been released into the repository! Apologies if I am late to announce this")
 	print("")
+        print("7/7/25 - 5:23 PM PT")
+        print("I replaced some stuff with different emotes, hope you're a bit happy with it.")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
 	print("1. It prevents accessories from floating away, helpful when you want to afk and not see yourself be an abomination or whatever.")
@@ -894,10 +896,10 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/ily.ogg")
+			sound69.SoundId = customasset("Dances/hysteriafull.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(140670228658366,30)
+			playanim(15115509387)
 		else
 			stopanim()
 			
@@ -947,10 +949,10 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/wush2 (feat. ilyhiryu).mp3")
+			sound69.SoundId = customasset("Dances/SayMaxWell - Helltaker - VITALITY [Remix] (NO Copyright).mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(75462948983147,1.175)
+			playanim(8004387067,1.4)
 		else
 			stopanim()
 			
@@ -1199,10 +1201,10 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/200.mp3")
+			sound69.SoundId = customasset("Dances/MoF Stage 4 Theme_ Fall of Fall  Autumnal Waterfall.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(75462948983147,1.1)
+			playanim(13447037105)
 		else
 			stopanim()
 			
@@ -1435,10 +1437,10 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/Jumperzzz05.mp3")
+			sound69.SoundId = customasset("Dances/nokotan.mp3")
 			timeposcur = sound69.TimePosition
 			sound69:Play()
-			playanim(8829798048,1.85)
+			playanim(96474371768104)
 		else
 			stopanim()
 
@@ -1461,10 +1463,10 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/Turbine2.61.mp3")
+			sound69.SoundId = customasset("Dances/beztebya.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(75462948983147,1.0)
+			playanim(92293593057392,1.25)
 		else
 			stopanim()
 			
@@ -1474,10 +1476,10 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/ANTINEWGEN BOOTLEG.mp3")
+			sound69.SoundId = customasset("Dances/notoutoftouchactually.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(72723551972407)
+			playanim(135867676375598,1.5)
 		else
 			stopanim()
 			
@@ -1487,10 +1489,10 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/1x1x1x1.mp3")
+			sound69.SoundId = customasset("Dances/yamero.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(75462948983147,1.175)
+			playanim(137765549462705)
 		else
 			stopanim()
 			
