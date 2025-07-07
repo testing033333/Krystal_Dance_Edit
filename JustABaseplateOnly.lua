@@ -912,7 +912,7 @@ end
 			sound69.SoundId = customasset("Dances/lonely.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(92699725136780)
+			playanim(92699725136780,1.025)
 		else
 			stopanim()
 			
