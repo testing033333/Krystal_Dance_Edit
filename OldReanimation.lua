@@ -2476,7 +2476,7 @@ StarterGui:SetCore("SendNotification", {
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "Original KDV3";
 		Duration = 2;
-		Text = "Credits to Hemi/Nitro-GT (Former Oxide Owner, now controversial...)"
+		Text = "Credits to Hemi/Nitro-GT (Former Oxide Owner...)"
 	})
 	task.wait(3)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
@@ -2488,7 +2488,7 @@ StarterGui:SetCore("SendNotification", {
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "Modded Gelatek Reanim";
 		Duration = 2;
-		Text = "To Theo/Paradigm (which vro didnt actually do much about it)"
+		Text = "To Theo/Paradigm (which vro didnt actually do much about it but meh)"
 	})
 	task.wait(3)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
@@ -2499,4 +2499,3 @@ StarterGui:SetCore("SendNotification", {
 	--sonixery was here
 	--hi skid
 	--you know i really hate skids...
-				--dont mind me putting this thing also fuck you Scriptcrear
