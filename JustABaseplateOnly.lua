@@ -98,6 +98,9 @@ StarterGui:SetCore("SendNotification", {
 	print("")
         print("7/7/25 - 5:23 PM PT")
         print("I replaced some stuff with different emotes, hope you're a bit happy with it.")
+        print("")
+        print("7/7/25 - 10:36 PM PT")
+        print("Okay, so I decided in replacing a few boring animations and replaced F, G, and H's Animation IDs with the ones that I have loved so much in the Old Modded KDV3 Version!")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
 	print("1. It prevents accessories from floating away, helpful when you want to afk and not see yourself be an abomination or whatever.")
@@ -764,7 +767,7 @@ end
 			sound69.SoundId = customasset("Dances/bluudud2.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(75462948983147,1.175)
+			playanim(11082671272,5.02)
 		else
 			stopanim()
 			
@@ -777,7 +780,7 @@ end
 			sound69.SoundId = customasset("Dances/c00lkidd1 (feat. ilyhiryu).mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(75462948983147,1.175)
+			playanim(133783833234323,1.1)
 		else
 			stopanim()
 			
@@ -872,7 +875,7 @@ end
 			sound69.SoundId = customasset("Dances/pr3ttyprincess3.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(75462948983147,1.175)
+			playanim(75511909705314,1.95)
 		else
 			stopanim()
 			
