@@ -1233,7 +1233,7 @@ end
 			sound69.SoundId = customasset("Dances/DYSTOPIA (SLOWED).mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(75462948983147,0.9)
+			playanim(118452043589079)
 		else
 			stopanim()
 			
