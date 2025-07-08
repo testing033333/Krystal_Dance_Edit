@@ -1630,10 +1630,10 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/202.mp3")
+			sound69.SoundId = customasset("Dances/bouncin.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(75462948983147)
+			playanim(131539514978219)
 		else
 			stopanim()
 			
