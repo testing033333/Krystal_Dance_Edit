@@ -1230,7 +1230,7 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/DYSTOPIA (SLOWED).mp3")
+			sound69.SoundId = customasset("Dances/202.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(118452043589079)
