@@ -1373,6 +1373,32 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 			
 		end
+		elseif k == "rightbracket" then 
+		if dancing == false then 
+			stopanim()
+			dancing = true
+			task.wait(.005)
+			sound69.SoundId = customasset("Dances/Venetian Snares - Ultraviolent Junglist.mp3")
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(18986228959,2)
+		else
+			stopanim()
+			
+		end
+	elseif k == "b" then 
+		if dancing == false then 
+			stopanim()
+			dancing = true
+			task.wait(.005)
+			sound69.SoundId = customasset("Dances/fun.mp3")
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13579968035,2)
+		else
+			stopanim()
+			
+		end
 
 									end
 									end
@@ -1651,6 +1677,32 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 			
 		end
+	elseif k == "rightbracket" then 
+		if dancing == false then 
+			stopanim()
+			dancing = true
+			task.wait(.005)
+			sound69.SoundId = customasset("Dances/LOLtotheMAX - drum and based.mp3")
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(14536793751,3)
+		else
+			stopanim()
+			
+		end
+	elseif k == "b" then 
+		if dancing == false then 
+			stopanim()
+			dancing = true
+			task.wait(.005)
+			sound69.SoundId = customasset("Dances/Goreshit - the nature of dying.mp3")
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(18986591475)
+		else
+			stopanim()
+			
+		end
 	end 
 	end
 	if mode == 3 then 
@@ -1909,6 +1961,32 @@ StarterGui:SetCore("SendNotification", {
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(137765549462705,2)
+		else
+			stopanim()
+			
+	end
+	elseif k == "rightbracket" then 
+		if dancing == false then 
+			stopanim()
+			dancing = true
+			task.wait(.005)
+			sound69.SoundId = customasset("Dances/lazy ruby - what are you so afraid of_ [Undertale - Amalgamate Remix].mp3")
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(124044710949643,1.5)
+		else
+			stopanim()
+			
+		end
+	elseif k == "b" then 
+		if dancing == false then 
+			stopanim()
+			dancing = true
+			task.wait(.005)
+			sound69.SoundId = customasset("Dances/Burn This Moment Into the Retina of My Eye.mp3")
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(98916367562022,1.5)
 		else
 			stopanim()
 			
@@ -2245,6 +2323,21 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 			
 		end
+	elseif k == "b" then 
+		if dancing == false then 
+			stopanim()
+			dancing = true
+			task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			char.Humanoid.WalkSpeed = 1000*char:GetScale()
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(105555482421711,1.5)
+		else
+			char.Humanoid.WalkSpeed = 14*char:GetScale()
+			stopanim()
+			
+		end
 			end 
 	end
 	if k == "equals" then 
@@ -2488,7 +2581,7 @@ StarterGui:SetCore("SendNotification", {
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "Modded Gelatek Reanim";
 		Duration = 2;
-		Text = "To Theo/Paradigm (which vro didnt actually do much about it but meh)"
+		Text = "To Theo/Paradigm (which vro didnt actually do much about it but meh also Gelatekussy the OG of the reanim)"
 	})
 	task.wait(3)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
