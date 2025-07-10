@@ -631,9 +631,9 @@ end
 				sound69.PlaybackSpeed = 1
 				if playbacktrack == true then 
 							if lol ~= true then 
-				sound69.SoundId = customasset("Dances/NO MERCY III [FULL ALBUM].mp3")
+				sound69.SoundId = customasset("Dances/Amalgam But Breakcore (Filler).mp3")
 					else 
-						sound69.SoundId = customasset("Dances/NO MERCY III [FULL ALBUM].mp3")  
+						sound69.SoundId = customasset("Dances/Amalgam But Breakcore (Filler).mp3")  
 					end
 				sound69.Volume = .75
 				else 
@@ -915,7 +915,7 @@ end
 			sound69.SoundId = customasset("Dances/lonely.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(92699725136780,1.025)
+			playanim(92699725136780)
 		else
 			stopanim()
 			
@@ -956,6 +956,32 @@ end
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(8004387067,1.4)
+		else
+			stopanim()
+			
+		end
+		elseif k == "rightbracket" then 
+		if dancing == false then 
+			stopanim()
+			dancing = true
+			task.wait(.005)
+			sound69.SoundId = customasset("Dances/Venetian Snares - Ultraviolent Junglist.mp3")
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(18986228959,2)
+		else
+			stopanim()
+			
+		end
+	elseif k == "b" then 
+		if dancing == false then 
+			stopanim()
+			dancing = true
+			task.wait(.005)
+			sound69.SoundId = customasset("Dances/fun.mp3")
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13579968035,2)
 		else
 			stopanim()
 			
@@ -1238,6 +1264,32 @@ end
 			stopanim()
 			
 		end
+	elseif k == "rightbracket" then 
+		if dancing == false then 
+			stopanim()
+			dancing = true
+			task.wait(.005)
+			sound69.SoundId = customasset("Dances/LOLtotheMAX - drum and based.mp3")
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(14536793751,3)
+		else
+			stopanim()
+			
+		end
+	elseif k == "b" then 
+		if dancing == false then 
+			stopanim()
+			dancing = true
+			task.wait(.005)
+			sound69.SoundId = customasset("Dances/Goreshit - the nature of dying.mp3")
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(18986591475)
+		else
+			stopanim()
+			
+		end
 	end 
 	end
 	if mode == 3 then 
@@ -1496,6 +1548,32 @@ end
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(137765549462705,2)
+		else
+			stopanim()
+			
+	end
+	elseif k == "rightbracket" then 
+		if dancing == false then 
+			stopanim()
+			dancing = true
+			task.wait(.005)
+			sound69.SoundId = customasset("Dances/lazy ruby - what are you so afraid of_ [Undertale - Amalgamate Remix].mp3")
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(124044710949643,1.5)
+		else
+			stopanim()
+			
+		end
+	elseif k == "b" then 
+		if dancing == false then 
+			stopanim()
+			dancing = true
+			task.wait(.005)
+			sound69.SoundId = customasset("Dances/Burn This Moment Into the Retina of My Eye.mp3")
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(98916367562022,1.5)
 		else
 			stopanim()
 			
@@ -1832,6 +1910,21 @@ end
 			stopanim()
 			
 		end
+	elseif k == "b" then 
+		if dancing == false then 
+			stopanim()
+			dancing = true
+			task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			char.Humanoid.WalkSpeed = 1000*char:GetScale()
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(105555482421711,1.5)
+		else
+			char.Humanoid.WalkSpeed = 14*char:GetScale()
+			stopanim()
+			
+		end
 			end 
 	end
 	if k == "equals" then 
@@ -2063,7 +2156,7 @@ end
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "Original KDV3";
 		Duration = 2;
-		Text = "Credits to Hemi/Nitro-GT (Former Oxide Owner)"
+		Text = "Credits to Hemi/Nitro-GT (Former Oxide Owner...)"
 	})
 	task.wait(3)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
