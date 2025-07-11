@@ -98,9 +98,13 @@ StarterGui:SetCore("SendNotification", {
 	print("")
         print("7/7/25 - 5:23 PM PT")
         print("I replaced some stuff with different emotes, hope you're a bit happy with it.")
-        print("")
+	print("")
         print("7/7/25 - 10:36 PM PT")
         print("Okay, so I decided in replacing a few boring animations and replaced F, G, and H's Animation IDs with the ones that I have loved so much in the Old Modded KDV3 Version!")
+	print("")
+        print("7/11/25 - 4:29 PM PT")
+        print("B and ] have been filled in!")
+	print("Also, SonixApi has to be removed for a moment since this is causing some problems (sorry dude).")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
 	print("1. It prevents accessories from floating away, helpful when you want to afk and not see yourself be an abomination or whatever.")
@@ -204,9 +208,7 @@ end
 	coolparticles.Parent = randompart
 	local playbacktrack = true 
 	local script = Instance.new("LocalScript")
-	local OxideApi = loadstring(game:HttpGet("https://raw.githubusercontent.com/sparezirt/Utility/refs/heads/main/.github/SonixApi"))()
 	local timeposcur = 0 
-	OxideApi.Notification("Krystal Dance Modded V1 by Sonixery, Full Credits to Crimson",10)
 	local playanother = false
 	local playing = false
 	local dancing = false
