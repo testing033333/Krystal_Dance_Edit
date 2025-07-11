@@ -617,9 +617,7 @@ StarterGui:SetCore("SendNotification", {
 	coolparticles.Parent = randompart
 	local playbacktrack = true 
 	local script = Instance.new("LocalScript")
-	local OxideApi = loadstring(game:HttpGet("https://raw.githubusercontent.com/sparezirt/Utility/refs/heads/main/.github/SonixApi"))()
 	local timeposcur = 0 
-	OxideApi.Notification("Krystal Dance Modded V1 by Sonixery, Full Credits to Crimson",10)
 	local playanother = false
 	local playing = false
 	local dancing = false
