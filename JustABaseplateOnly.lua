@@ -1918,10 +1918,10 @@ end
 			dancing = true
 			task.wait(.005)
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
-			char.Humanoid.WalkSpeed = 1000*char:GetScale()
+			char.Humanoid.WalkSpeed = 6*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(131489645739717)
+			playanim(131489645739717,2)
 		else
 			char.Humanoid.WalkSpeed = 14*char:GetScale()
 			stopanim()
