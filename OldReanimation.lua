@@ -2330,7 +2330,7 @@ StarterGui:SetCore("SendNotification", {
 			char.Humanoid.WalkSpeed = 6*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(131489645739717)
+			playanim(131489645739717,2)
 		else
 			char.Humanoid.WalkSpeed = 14*char:GetScale()
 			stopanim()
