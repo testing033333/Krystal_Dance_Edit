@@ -188,7 +188,7 @@ end
 		local character = player.Character
 		if not character then return end
 		-- Play animation
-		local Intro = Animator.new(character, 18435303746)
+		local Intro = Animator.new(character, 124033675853489)
 		Intro:Play()
 	task.wait(3.550)
 	if not isfolder("Dances") then 
