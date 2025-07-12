@@ -587,19 +587,17 @@ StarterGui:SetCore("SendNotification", {
 			Duration = 4;
 			Text = "Thank you for using this script."
 	})
-	task.wait(3)
 	-- Krystal Dance V3, Made by Hemi (es muy janky)
 	if not getgenv()["Animator"] then
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
 	end
-	task.wait(2.750)
+	task.wait(1.5)
 	local player = game:GetService("Players").LocalPlayer
 		local character = player.Character
 		if not character then return end
 		-- Play animation
 		local Intro = Animator.new(character, 124033675853489)
 		Intro:Play()
-	task.wait(3.550)
 	if not isfolder("Dances") then 
 		makefolder("Dances")
 		end
@@ -1770,10 +1768,10 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/moosy (slowed).mp3")
+			sound69.SoundId = customasset("Dances/funny.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(16361564081,0.777)
+			playanim(91260130273371)
 		else
 			stopanim()
 		end
@@ -1809,7 +1807,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.SoundId = customasset("Dances/lookslowed.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(84471848998012,1.25)
+			playanim(92187683724153)
 		else
 			stopanim()
 		end
@@ -1846,7 +1844,7 @@ StarterGui:SetCore("SendNotification", {
 			char.Humanoid.WalkSpeed = 6*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(86485871533985,0.777)
+			playanim(125834337223799,0.777)
 		else
 			stopanim()
 		end
@@ -1870,7 +1868,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.SoundId = customasset("Dances/femtanyl - P3T.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(105416804363388,30)
+			playanim(93585895457618,3)
 		else
 			stopanim()
 		end
