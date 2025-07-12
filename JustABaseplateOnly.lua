@@ -1399,7 +1399,7 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/why as soon as we become so close we have to say goodbye.mp3")
+			sound69.SoundId = customasset("Dances/goodbye.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(92187683724153)
