@@ -1229,7 +1229,7 @@ StarterGui:SetCore("SendNotification", {
 			char.Humanoid.WalkSpeed = 0*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(123466997748392)
+			playanim(8425790917)
 		else
 			char.Humanoid.WalkSpeed = 0*char:GetScale()
 			stopanim()
@@ -2429,7 +2429,7 @@ StarterGui:SetCore("SendNotification", {
 				
 				math.randomseed(os.clock())
 				if math.random(1,2) == 1 then 
-				playanim(8425790917,1,false)
+				playanim(9125807694,1,false)
 				else 
 				playanim(18514922555,1,false)
 				end
