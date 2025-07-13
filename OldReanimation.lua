@@ -54,7 +54,7 @@ StarterGui:SetCore("SendNotification", {
 	local KeepHairWelds = Global.RayfieldConfig["Keep Hats On Head"] or true
 	local HeadlessPerma = Global.RayfieldConfig["Headless On Perma"] or true -- changeable headless (or bubblechat hider)
 	local DisableAnimations = Global.RayfieldConfig["Disable Anims"] or false
-	local Collisions = Global.RayfieldConfig["Enable Collisions"] or false
+	local Collisions = Global.RayfieldConfig["Enable Collisions"] or true
 	local AntiVoid = Global.RayfieldConfig["Anti Void"] or true
 	if CollideFling and BulletEnabled then CollideFling = false end
 	if not Global.TableOfEvents then Global.TableOfEvents = {} end
