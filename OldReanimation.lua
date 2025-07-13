@@ -49,7 +49,7 @@ StarterGui:SetCore("SendNotification", {
 
 	if not Global.RayfieldConfig then Global.RayfieldConfig = {} end
 	local PermanentDeath = Global.RayfieldConfig["Permanent Death"]  or true
-	local CollideFling = Global.RayfieldConfig["Torso Fling"]  or true -- changeable combat mode!
+	local CollideFling = Global.RayfieldConfig["Torso Fling"]  or false -- changeable combat mode!
 	local BulletEnabled = Global.RayfieldConfig["Bullet Enabled"] or false
 	local KeepHairWelds = Global.RayfieldConfig["Keep Hats On Head"] or true
 	local HeadlessPerma = Global.RayfieldConfig["Headless On Perma"] or true -- changeable headless (or bubblechat hider)
