@@ -2431,7 +2431,7 @@ StarterGui:SetCore("SendNotification", {
 				if math.random(1,2) == 1 then 
 				playanim(8425790917,1,false)
 				else 
-				playanim(18515031867,1,false)
+				playanim(18514922555,1,false)
 				end
 			else 
 				stopanim()
