@@ -109,6 +109,9 @@ StarterGui:SetCore("SendNotification", {
         print("7/12/25 - 8:46 PM PT")
         print("Replaced Page 3 U, H, Z, and C!")
         print("Also tweaked the startup of the script, allowing itself to load even faster!")
+        print("")
+        print("7/13/25 - 12:02 PM PT")
+        print("Replaced Sitting Animations and Page 1 K.")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
 	print("1. It prevents accessories from floating away, helpful when you want to afk and not see yourself be an abomination or whatever.")
@@ -2024,9 +2027,9 @@ end
 				
 				math.randomseed(os.clock())
 				if math.random(1,2) == 1 then 
-				playanim(9125807694,1,false)
+				playanim(18514983173,1,false)
 				else 
-				playanim(18514922555,1,false)
+				playanim(18515203356,1,false)
 				end
 			else 
 				stopanim()
