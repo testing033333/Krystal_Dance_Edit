@@ -2024,9 +2024,9 @@ end
 				
 				math.randomseed(os.clock())
 				if math.random(1,2) == 1 then 
-				playanim(133312100962627,1,false)
+				playanim(8425790917,1,false)
 				else 
-				playanim(122775909441631,1,false)
+				playanim(18514922555,1,false)
 				end
 			else 
 				stopanim()
