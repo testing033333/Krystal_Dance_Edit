@@ -1,4 +1,5 @@
 -- i totally fucking hated when this shit bugs the fuck out of the files so i wont update this shit
+-- unless yall can help out in making this function, ill be glad
 
 if not isfolder("Dances") then
 	makefolder("Dances")
