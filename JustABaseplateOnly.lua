@@ -2335,7 +2335,7 @@ end
 	task.wait(.005)
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
-			char.Humanoid.WalkSpeed = 12*char:GetScale()
+			char.Humanoid.WalkSpeed = 20*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(76313364850487,3)
