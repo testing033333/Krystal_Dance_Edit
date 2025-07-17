@@ -215,7 +215,7 @@ end
 	local is = game:GetService("InsertService")
 	local idleanim = is:LoadLocalAsset("rbxassetid://83465205704188")
 	local walkanim = is:LoadLocalAsset("rbxassetid://73210090104463")
-	local sprintanim = is:LoadLocalAsset("rbxassetid://117120797008387")
+	local sprintanim = is:LoadLocalAsset("rbxassetid://85012092465916")
 	local randompart = Instance.new("Part",game:GetService("RunService"))
 	local coolparticles = is:LoadLocalAsset("rbxassetid://87299663038091").ParticleAttachment
 	coolparticles.Parent = randompart
