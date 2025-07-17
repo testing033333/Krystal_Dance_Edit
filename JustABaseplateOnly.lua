@@ -119,8 +119,8 @@ StarterGui:SetCore("SendNotification", {
         print("NOTE! THIS IS IN WORK IN PROGRESS! I have to say this again, this gives me extra work that will take me 3 total days in finishing everything completely!")
         print("")
         print("7/17/25 - 12:46 PM PT")
-        print("Page 4 has been easily completed!")
-        print("Also, changed the sprint animation!")
+        print("Page 4 has been easily completed (nvm its fucked up)!")
+        print("Also, changed the sprint animation (nvm its fucked up)!")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
 	print("1. It prevents accessories from floating away, helpful when you want to afk and not see yourself be an abomination or whatever.")
@@ -216,7 +216,7 @@ end
 	local is = game:GetService("InsertService")
 	local idleanim = is:LoadLocalAsset("rbxassetid://83465205704188")
 	local walkanim = is:LoadLocalAsset("rbxassetid://73210090104463")
-	local sprintanim = is:LoadLocalAsset("rbxassetid://85012092465916")
+	local sprintanim = is:LoadLocalAsset("rbxassetid://117120797008387")
 	local randompart = Instance.new("Part",game:GetService("RunService"))
 	local coolparticles = is:LoadLocalAsset("rbxassetid://87299663038091").ParticleAttachment
 	coolparticles.Parent = randompart
@@ -2920,7 +2920,7 @@ end
 			else
 					char.Humanoid.WalkSpeed = 33*char:GetScale()
 				if walking == true and idle == false and  char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and playanother==true  then 
-					playanim(85012092465916,2.5,false,sprintanim)
+					playanim(117120797008387,2.5,false,sprintanim)
 				end
 		end
 	end
