@@ -120,6 +120,7 @@ StarterGui:SetCore("SendNotification", {
         print("")
         print("7/17/25 - 12:46 PM PT")
         print("Page 4 has been easily completed!")
+        print("Also, changed the sprint animation!")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
 	print("1. It prevents accessories from floating away, helpful when you want to afk and not see yourself be an abomination or whatever.")
