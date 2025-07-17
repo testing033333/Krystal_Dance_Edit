@@ -2335,10 +2335,12 @@ end
 	task.wait(.005)
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
+			char.Humanoid.WalkSpeed = 12*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(76313364850487)
+			playanim(76313364850487,3)
 		else
+		    char.Humanoid.WalkSpeed = 6*char:GetScale()
 			stopanim()
 			sound69.PlaybackSpeed = 1
 			
@@ -2352,7 +2354,7 @@ end
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(86073608599582)
+			playanim(86073608599582,2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2365,10 +2367,12 @@ end
 	task.wait(.005)
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
+			char.Humanoid.WalkSpeed = 0*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(108319980293313)
+			playanim(108319980293313,2)
 		else
+		    char.Humanoid.WalkSpeed = 6*char:GetScale()
 			stopanim()
 			sound69.PlaybackSpeed = 1
 			
@@ -2382,7 +2386,7 @@ end
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(79619765411660)
+			playanim(79619765411660,0.35)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2395,10 +2399,12 @@ end
 	task.wait(.005)
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
+			char.Humanoid.WalkSpeed = 0*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(92529934565092)
 		else
+		    char.Humanoid.WalkSpeed = 6*char:GetScale()
 			stopanim()
 			sound69.PlaybackSpeed = 1
 			
@@ -2410,10 +2416,12 @@ end
 	task.wait(.005)
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
+			char.Humanoid.WalkSpeed = 66*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(120480195428173)
+			playanim(120480195428173,0.7)
 		else
+		    char.Humanoid.WalkSpeed = 6*char:GetScale()
 			stopanim()
 			sound69.PlaybackSpeed = 1
 			
@@ -2457,7 +2465,7 @@ end
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(100446064103831)
+			playanim(100446064103831,0.6)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2485,10 +2493,12 @@ end
 	task.wait(.005)
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
+			char.Humanoid.WalkSpeed = 12*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(110906451704074)
+			playanim(110906451704074,3)
 		else
+			char.Humanoid.WalkSpeed = 6*char:GetScale()
 			stopanim()
 			sound69.PlaybackSpeed = 1
 			
@@ -2500,10 +2510,12 @@ end
 	task.wait(.005)
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
+			char.Humanoid.WalkSpeed = 3*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(84039122607068)
+			playanim(84039122607068,0.5)
 		else
+			char.Humanoid.WalkSpeed = 6*char:GetScale()
 			stopanim()
 			sound69.PlaybackSpeed = 1
 			
