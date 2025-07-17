@@ -609,7 +609,7 @@ StarterGui:SetCore("SendNotification", {
 	local is = game:GetService("InsertService")
 	local idleanim = is:LoadLocalAsset("rbxassetid://83465205704188")
 	local walkanim = is:LoadLocalAsset("rbxassetid://73210090104463")
-	local sprintanim = is:LoadLocalAsset("rbxassetid://85012092465916")
+	local sprintanim = is:LoadLocalAsset("rbxassetid://117120797008387")
 	local randompart = Instance.new("Part",game:GetService("RunService"))
 	local coolparticles = is:LoadLocalAsset("rbxassetid://87299663038091").ParticleAttachment
 	coolparticles.Parent = randompart
@@ -3136,7 +3136,7 @@ StarterGui:SetCore("SendNotification", {
 			else
 					char.Humanoid.WalkSpeed = 33*char:GetScale()
 				if walking == true and idle == false and  char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and playanother==true  then 
-					playanim(85012092465916,2.5,false,sprintanim)
+					playanim(117120797008387,2.5,false,sprintanim)
 				end
 		end
 	end
