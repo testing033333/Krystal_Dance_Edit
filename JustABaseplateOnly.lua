@@ -128,6 +128,7 @@ StarterGui:SetCore("SendNotification", {
         print("")
         print("7/19/25 - 7:20 PM")
         print("36 ANIMATIONS FINALLY DONE!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        print("SCRIPT ALSO RELEASED IN GHOSTHUB!!!!!!!!!!!!!!!!!!!!!!!!")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
 	print("1. It prevents accessories from floating away, helpful when you want to afk and not see yourself be an abomination or whatever.")
