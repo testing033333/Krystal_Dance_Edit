@@ -1089,7 +1089,7 @@ StarterGui:SetCore("SendNotification", {
 				sound69.SoundId = customasset("Dances/asdf.mp3")
 				timeposcur = sound69.TimePosition 
 	sound69:Play()
-				playanim(98605693116996)
+				playanim(82123030025988)
 			else
 				stopanim()
 			end
@@ -1102,7 +1102,7 @@ StarterGui:SetCore("SendNotification", {
 	sound69.PlaybackSpeed = 1
 	timeposcur = sound69.TimePosition 
 	sound69:Play()
-	playanim(16769959846,1.25)
+	playanim(114610231812511)
 			else
 	stopanim()
 	sound69.PlaybackSpeed = 1
@@ -1132,7 +1132,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(132979558739339)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1147,7 +1147,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(112645644540728)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1162,7 +1162,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(70380478678297)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1177,7 +1177,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(82123030025988)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1192,7 +1192,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(108058940444935)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1207,7 +1207,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(108805310510119)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1222,7 +1222,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(15704995372)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1237,7 +1237,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(115727639577589)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1252,7 +1252,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(126683576461381)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1267,7 +1267,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(139148388599834)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1282,7 +1282,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(77170841283499)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1297,7 +1297,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(78270528768822)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1601,7 +1601,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(8360493405)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1616,7 +1616,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(122878040721056)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1631,7 +1631,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(89761302048916)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1646,7 +1646,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(83070385097572)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1661,7 +1661,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(89935837869234)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1676,7 +1676,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(74560719461868)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1691,7 +1691,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(74560719461868)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1706,7 +1706,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(15231364673)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1721,7 +1721,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(18986357892)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1736,7 +1736,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(139065991651723)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1751,7 +1751,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(75616586799217)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1766,7 +1766,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(74653637870288)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2083,7 +2083,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(115465103089127)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2098,7 +2098,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(114610231812511)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2113,7 +2113,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(82123030025988)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2128,7 +2128,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(84765927391240)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2143,7 +2143,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(81782595704176)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2158,7 +2158,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(98260902889120)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2173,7 +2173,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(104525136565640)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2551,7 +2551,7 @@ StarterGui:SetCore("SendNotification", {
 	task.wait(.005)
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
-			char.Humanoid.WalkSpeed = 20*char:GetScale()
+			char.Humanoid.WalkSpeed = 12*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(76313364850487,3)
@@ -2651,7 +2651,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(91984445049000)
+			playanim(119103839008664,2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2709,12 +2709,10 @@ StarterGui:SetCore("SendNotification", {
 	task.wait(.005)
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
-			char.Humanoid.WalkSpeed = 12*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(110906451704074,3)
 		else
-			char.Humanoid.WalkSpeed = 6*char:GetScale()
 			stopanim()
 			sound69.PlaybackSpeed = 1
 			
@@ -2726,12 +2724,10 @@ StarterGui:SetCore("SendNotification", {
 	task.wait(.005)
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
-			char.Humanoid.WalkSpeed = 3*char:GetScale()
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(84039122607068,0.5)
+			playanim(119147810948063,25)
 		else
-			char.Humanoid.WalkSpeed = 6*char:GetScale()
 			stopanim()
 			sound69.PlaybackSpeed = 1
 			
