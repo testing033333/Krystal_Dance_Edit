@@ -123,7 +123,7 @@ StarterGui:SetCore("SendNotification", {
         print("Also, changed the sprint animation (nvm its fucked up)!")
         print("")
         print("7/19/25 - 9:10 AM")
-        print("Added a bunch of animations, totalling to 31 emotes! I am just as almost done, only needing to adjust a few animation speeds once they're all filled in and then the music to finish off.")
+        print("Added a bunch of animations, totalling to 30 emotes, along with returning the other 6! I am just as almost done, only needing to adjust the animation speed and then the music to finish off.")
         print("Replaced Page 4 7 and period's asset IDs.")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
@@ -1784,7 +1784,7 @@ end
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(104525136565640)
+			playanim(12438774071)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1799,7 +1799,7 @@ end
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(75462948983147)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1814,7 +1814,7 @@ end
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(12843537499)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1829,7 +1829,7 @@ end
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(10609437925)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1844,7 +1844,7 @@ end
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(89046713686252)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1859,7 +1859,7 @@ end
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13845017130)
+			playanim(75148929064618)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
