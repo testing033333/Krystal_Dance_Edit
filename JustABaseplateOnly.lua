@@ -1278,7 +1278,16 @@ end
 			sound69.PlaybackSpeed = 1
 			
 			end
-			playanim(81782595704176)
+        elseif k == "six" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(10048786578)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
