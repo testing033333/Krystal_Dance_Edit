@@ -720,7 +720,7 @@ end
 	sound69.PlaybackSpeed = 1
 	timeposcur = sound69.TimePosition 
 	sound69:Play()
-	playanim(114610231812511)
+	playanim(16769959846,1.25)
 			else
 	stopanim()
 	sound69.PlaybackSpeed = 1
