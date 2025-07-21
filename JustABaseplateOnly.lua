@@ -3868,7 +3868,6 @@ end
 		idle = false 
 	end
 	end)
-	game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-net")
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "Original KDV3";
 		Duration = 2;
