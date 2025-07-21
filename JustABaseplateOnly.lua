@@ -122,12 +122,15 @@ StarterGui:SetCore("SendNotification", {
         print("Page 4 has been easily completed (nvm its fucked up)!")
         print("Also, changed the sprint animation (nvm its fucked up)!")
         print("")
-        print("7/19/25 - 9:10 AM")
+        print("7/19/25 - 9:10 AM PT")
         print("Added a bunch of animations, totalling to 30 emotes, along with returning the other 6! I am just as almost done, only needing to adjust the animation speed and then the music to finish off.")
         print("Replaced Page 4 7 and period's asset IDs.")
         print("")
-        print("7/19/25 - 7:20 PM")
+        print("7/19/25 - 7:20 PM PT")
         print("36 ANIMATIONS FINALLY DONE!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        print("")
+        print("7/21/25 - 1:52 PM PT")
+        print("Okay, what if we make more space? Boom, keypads. Now I gotta have WAYYYYYYYYYYYYYYYYYYYYYYYY more work to do!")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
 	print("1. It prevents accessories from floating away, helpful when you want to afk and not see yourself be an abomination or whatever.")
@@ -738,6 +741,246 @@ end
 		sound69.PlaybackSpeed = 1
 		
 		end
+		elseif k == "keypadzero" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadone" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadtwo" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadthree" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadfour" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadfive" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadsix" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadseven" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadeight" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadnine" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadperiod" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadplus" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadenter" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadmultiply" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadminus" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "numlock" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
 		elseif k == "one" then 
 		if dancing == false then 
 			stopanim()
@@ -1207,6 +1450,246 @@ end
 			stopanim()
 			
 			end 
+			elseif k == "keypadzero" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadone" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadtwo" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadthree" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadfour" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadfive" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadsix" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadseven" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadeight" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadnine" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadperiod" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadplus" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadenter" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadmultiply" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadminus" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "numlock" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
 			elseif k == "one" then 
 		if dancing == false then 
 			stopanim()
@@ -1689,6 +2172,246 @@ end
 		else
 			stopanim()
 		end
+			elseif k == "keypadzero" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadone" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadtwo" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadthree" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadfour" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadfive" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadsix" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadseven" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadeight" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadnine" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadperiod" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadplus" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadenter" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadmultiply" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadminus" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "numlock" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
 		elseif k == "one" then 
 		if dancing == false then 
 			stopanim()
@@ -2159,6 +2882,246 @@ end
 			char.Humanoid.WalkSpeed = 14*char:GetScale()
 			stopanim()
 		end
+			elseif k == "keypadzero" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadone" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadtwo" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadthree" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadfour" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadfive" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadsix" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadseven" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadeight" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadnine" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadperiod" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadplus" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadenter" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadmultiply" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "keypadminus" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+	elseif k == "numlock" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
 		elseif k == "one" then 
 		if dancing == false then 
 			stopanim()
