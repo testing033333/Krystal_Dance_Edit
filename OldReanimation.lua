@@ -575,10 +575,11 @@ StarterGui:SetCore("SendNotification", {
 	if not DisableAnimations then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekReanimate/main/Addons/Animations.lua"))()
 	end
+	game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-net")
 		game:GetService("StarterGui"):SetCore("SendNotification", {
 			Title = "Prepared!";
 			Duration = 4;
-			Text = "Old Gelatek Reanimation is now active, expect hats to fall often into the void."
+			Text = "Old Gelatek Reanimation is now active."
 	})
 	
 	task.wait(1)
@@ -4251,7 +4252,6 @@ StarterGui:SetCore("SendNotification", {
 		idle = false 
 	end
 	end)
-	game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-net")
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "Original KDV3";
 		Duration = 2;
