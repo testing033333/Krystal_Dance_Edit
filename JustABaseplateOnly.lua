@@ -192,7 +192,7 @@ end
 			Text = "Gelatek Reanimation is now active."
 	})
 	
-	task.wait(1)
+	task.wait(0.5)
 		game:GetService("StarterGui"):SetCore("SendNotification", {
 			Title = "❤️";
 			Duration = 4;
