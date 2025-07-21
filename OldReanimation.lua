@@ -602,7 +602,7 @@ StarterGui:SetCore("SendNotification", {
 	if not isfolder("Dances") then 
 		makefolder("Dances")
 		end
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal-Dance-V3-Edit/refs/heads/main/funnytag"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal-Dance-V3-Edit/refs/heads/main/funny tag"))()
 	local lol = math.random(1,30)
 	if lol == 2 then 
 	lol = true 
