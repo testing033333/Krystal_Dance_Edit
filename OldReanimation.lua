@@ -575,14 +575,14 @@ StarterGui:SetCore("SendNotification", {
 	if not DisableAnimations then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekReanimate/main/Addons/Animations.lua"))()
 	end
-	game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-net")
 		game:GetService("StarterGui"):SetCore("SendNotification", {
 			Title = "Prepared!";
 			Duration = 4;
 			Text = "Old Gelatek Reanimation is now active."
 	})
 	
-	task.wait(1)
+	task.wait(0.5)
+	game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-net")
 		game:GetService("StarterGui"):SetCore("SendNotification", {
 			Title = "❤️";
 			Duration = 4;
