@@ -1978,7 +1978,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(10961176614)
+			playanim(112719308860800)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
