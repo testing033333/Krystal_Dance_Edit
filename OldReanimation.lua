@@ -1275,7 +1275,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			
 			end
-	elseif k == "keypadperiod" then 
+	elseif k == "keypadmultiply" then 
 		if dancing == false then 
 			stopanim()
 	dancing = true
@@ -1984,7 +1984,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			
 			end
-	elseif k == "keypadperiod" then 
+	elseif k == "keypadmultiply" then 
 		if dancing == false then 
 			stopanim()
 	dancing = true
@@ -2706,7 +2706,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			
 			end
-	elseif k == "keypadperiod" then 
+	elseif k == "keypadmultiply" then 
 		if dancing == false then 
 			stopanim()
 	dancing = true
@@ -3416,7 +3416,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			
 			end
-	elseif k == "keypadperiod" then 
+	elseif k == "keypadmultiply" then 
 		if dancing == false then 
 			stopanim()
 	dancing = true
