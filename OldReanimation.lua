@@ -1305,7 +1305,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			
 			end
-	elseif k == "keypadenter" then 
+	elseif k == "rightalt" then 
 		if dancing == false then 
 			stopanim()
 	dancing = true
@@ -1320,7 +1320,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			
 			end
-	elseif k == "keypadmultiply" then 
+	elseif k == "leftalt" then 
 		if dancing == false then 
 			stopanim()
 	dancing = true
@@ -2014,7 +2014,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			
 			end
-	elseif k == "keypadenter" then 
+	elseif k == "rightalt" then 
 		if dancing == false then 
 			stopanim()
 	dancing = true
@@ -2029,7 +2029,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			
 			end
-	elseif k == "keypadmultiply" then 
+	elseif k == "leftalt" then 
 		if dancing == false then 
 			stopanim()
 	dancing = true
@@ -2736,7 +2736,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			
 			end
-	elseif k == "keypadenter" then 
+	elseif k == "rightalt" then 
 		if dancing == false then 
 			stopanim()
 	dancing = true
@@ -2751,7 +2751,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			
 			end
-	elseif k == "keypadmultiply" then 
+	elseif k == "leftalt" then 
 		if dancing == false then 
 			stopanim()
 	dancing = true
@@ -3446,7 +3446,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			
 			end
-	elseif k == "keypadenter" then 
+	elseif k == "rightalt" then 
 		if dancing == false then 
 			stopanim()
 	dancing = true
@@ -3461,7 +3461,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			
 			end
-	elseif k == "keypadmultiply" then 
+	elseif k == "leftalt" then 
 		if dancing == false then 
 			stopanim()
 	dancing = true
