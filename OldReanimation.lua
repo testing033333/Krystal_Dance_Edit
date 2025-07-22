@@ -2786,11 +2786,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/I C4NT BEL1EVE!!! - A Femtanyl Inspired Song.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(81783637427821)
+			playanim(81783637427821,2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
