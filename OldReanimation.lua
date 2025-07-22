@@ -49,7 +49,7 @@ StarterGui:SetCore("SendNotification", {
 
 	if not Global.RayfieldConfig then Global.RayfieldConfig = {} end
 	local PermanentDeath = Global.RayfieldConfig["Permanent Death"]  or true
-	local CollideFling = Global.RayfieldConfig["Torso Fling"]  or false -- changeable combat mode!
+	local CollideFling = Global.RayfieldConfig["Torso Fling"]  or false -- changeable combat mode! 
 	local BulletEnabled = Global.RayfieldConfig["Bullet Enabled"] or false
 	local KeepHairWelds = Global.RayfieldConfig["Keep Hats On Head"] or true
 	local HeadlessPerma = Global.RayfieldConfig["Headless On Perma"] or false -- changeable headless (or bubblechat hider)
@@ -1130,11 +1130,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/VOCALFRY.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(81542849315640)
+			playanim(81542849315640,1.25)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1145,7 +1145,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/i'mrapidlyapproachingburnoutbutmusicistheonlythingthatkeepsmesane.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1160,7 +1160,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/G0TCH4.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1175,7 +1175,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/darklife.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1190,7 +1190,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/AMARI.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1205,11 +1205,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/YOU ARE AN IDIOT (WYST Skin) Chase Theme [Pillar Chase 2 UST].mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(124646390933027)
+			playanim(124646390933027,5)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1220,11 +1220,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/NEUROTOXIN.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(94565891001065)
+			playanim(94565891001065,1.2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1235,11 +1235,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/DIZZY.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(103315003879013)
+			playanim(103315003879013,10)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1250,11 +1250,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/BIT CRUSHED LOSER.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13272181711)
+			playanim(13272181711,2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1265,7 +1265,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/[BOFU2017] Options [BGA].mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1280,11 +1280,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/- Face Of Faith -.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(12852328987)
+			playanim(12852328987,2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1299,7 +1299,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(8328359953)
+			playanim(8328359953,100)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1310,7 +1310,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/OFF  Pepper Steak [REMAKE].mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1325,11 +1325,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/LEAKED.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(84378678518832)
+			playanim(84378678518832,2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1340,11 +1340,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/NAPALM.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(95986910060034)
+			playanim(95986910060034,1.35)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1355,11 +1355,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/I'LL BE FINE.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(83266223088944)
+			playanim(83266223088944,2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1839,7 +1839,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/S-Ame - WHAT 1 WA5.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1854,7 +1854,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/- No One Survives II -.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1869,11 +1869,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/H4TR3D.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(118257285014988)
+			playanim(14630791982,10)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1884,11 +1884,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/KN0CK 3M 0UT!!!.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(103599268167271)
+			playanim(103599268167271,2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1899,7 +1899,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/GASOLINE DRINKER.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1914,11 +1914,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/Ayesore  Cryler - 3AM CUBENSIS.mp4")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(13843669201)
+			playanim(13843669201,2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1929,7 +1929,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/AHHHHH!!!.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1944,11 +1944,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/I N3VER DIE.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(15093185505)
+			playanim(15093185505,2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -1959,7 +1959,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/- Inside Out -.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1974,7 +1974,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/anybody can find love (except you.).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1989,7 +1989,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/CLOCKWORK.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2004,11 +2004,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/FLY CL3AN - DJ DYKE (Femtanyl inspired song).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(18985649800)
+			playanim(18985649800,2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2019,7 +2019,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/0NC3 AL1V3.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2034,11 +2034,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/DOUBL3 TROUBL3.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(10049457548)
+			playanim(10049457548,2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2049,7 +2049,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/SH00T SH1T UP By Smoke Styx.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2064,7 +2064,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/Br1e Chee2e.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2561,7 +2561,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/UNUBORE.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2576,11 +2576,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/bloodmoon.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(129124931334396)
+			playanim(129124931334396,3)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2591,11 +2591,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/Mdrqnxtagon.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(127134835827066)
+			playanim(127134835827066,2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2606,11 +2606,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/CRANE'S RAGE (DREAMBOW REMIX).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(131658043622270)
+			playanim(131658043622270,2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2621,7 +2621,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/Overcompensate (RUMIX!).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2636,11 +2636,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/blknifebutronald.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(99826998720059)
+			playanim(99826998720059,3)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2651,7 +2651,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/- KAT STRIKE -.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2666,11 +2666,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/CYANBOY - SUBSTANCE LIKE FEMTANYL.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(119766959566102)
+			playanim(119766959566102,3)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2681,11 +2681,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/GLITCH IN YOUR HEART.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(14037662848)
+			playanim(14037662848,10)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2696,7 +2696,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/H3LP S33KR (S33K H3LP remix).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2711,7 +2711,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/SUP3RSTAR!.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2726,11 +2726,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/LOOKING GLASS LUMINESCENCE.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(12474374184)
+			playanim(12474374184,2)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2741,7 +2741,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/dropdead.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2756,11 +2756,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/SHURIKEON MIX - Forsaken Combat Initiation Jason's Chase Theme..mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(139932788215900)
+			playanim(139932788215900,3)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
@@ -2771,11 +2771,11 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/funny.mp3")
+			sound69.SoundId = customasset("Dances/DOGMATICA.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(12698847826)
+			playanim(12698847826,10)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
