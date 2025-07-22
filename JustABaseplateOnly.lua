@@ -131,6 +131,9 @@ StarterGui:SetCore("SendNotification", {
         print("")
         print("7/21/25 - 1:52 PM PT")
         print("Okay, what if we make more space? Boom, keypads. Now I gotta have WAYYYYYYYYYYYYYYYYYYYYYYYY more work to do!")
+        print("")
+        print("7/22/25 - 9:45 PM PT")
+        print("I've earned the right to hate myself.")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
 	print("1. It prevents accessories from floating away, helpful when you want to afk and not see yourself be an abomination or whatever.")
@@ -658,9 +661,9 @@ end
 				sound69.PlaybackSpeed = 1
 				if playbacktrack == true then 
 							if lol ~= true then 
-				sound69.SoundId = customasset("Dances/Amalgam But Breakcore (Filler).mp3")
+				sound69.SoundId = customasset("Dances/ive earned the right to hate myself.mp3")
 					else 
-						sound69.SoundId = customasset("Dances/Amalgam But Breakcore (Filler).mp3")  
+						sound69.SoundId = customasset("ive earned the right to hate myself.mp3")  
 					end
 				sound69.Volume = .75
 				else 
