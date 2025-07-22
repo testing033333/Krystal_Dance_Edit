@@ -1914,7 +1914,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/Ayesore  Cryler - 3AM CUBENSIS.mp4")
+			sound69.SoundId = customasset("Dances/Ayesore  Cryler - 3AM CUBENSIS.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
