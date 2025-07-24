@@ -137,6 +137,9 @@ StarterGui:SetCore("SendNotification", {
         print("")
         print("7/22/25 - 1:26 PM PT")
         print("Whew! 3 pages of extra space are done!!!")
+        print("")
+        print("7/24/25 - 9:24 AM PT")
+        print("Updated Jumpstyle and Hero!")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
 	print("1. It prevents accessories from floating away, helpful when you want to afk and not see yourself be an abomination or whatever.")
@@ -1259,7 +1262,7 @@ end
 			sound69.SoundId = customasset("Dances/RUBOOTLEG.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(136211028022217,1.175)
+			playanim(136211028022217,2.175)
 		else
 			stopanim()
 			
@@ -1302,7 +1305,7 @@ end
 			sound69.SoundId = customasset("Dances/jump.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(136211028022217,1.225)
+			playanim(136211028022217,2.225)
 		else
 			stopanim()
 			
@@ -1382,7 +1385,7 @@ end
 			sound69.SoundId = customasset("Dances/PSYCHO.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(136211028022217,1.175)
+			playanim(136211028022217,2.175)
 		else
 			stopanim()
 			
