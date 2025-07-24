@@ -1637,7 +1637,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.SoundId = customasset("Dances/RUBOOTLEG.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(136211028022217,1.175)
+			playanim(136211028022217,2.175)
 		else
 			stopanim()
 			
@@ -1680,7 +1680,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.SoundId = customasset("Dances/jump.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(136211028022217,1.225)
+			playanim(136211028022217,2.225)
 		else
 			stopanim()
 			
@@ -1760,7 +1760,7 @@ StarterGui:SetCore("SendNotification", {
 			sound69.SoundId = customasset("Dances/PSYCHO.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(136211028022217,1.175)
+			playanim(136211028022217,2.175)
 		else
 			stopanim()
 			
