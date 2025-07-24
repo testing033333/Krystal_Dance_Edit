@@ -7,4 +7,4 @@ This has been approved by SonixDev, with the dancing script (now with a nonsensi
 ---
 
 > [!NOTE]
-> Yes, the fucking audio downloader is so *****shit*****... that the [music](https://github.com/testing033333/music/tree/Audio-1) repository is now open, with a guide on how to put the fries in the bag (audio files into the folder).
+> Don't ask me where the downloader is. I had a hard time to make one and gave up on it. Go to [music](https://github.com/testing033333/music/tree/Audio-1) repository, there's a guide on how to put the fries in the bag (audio files into the folder).
