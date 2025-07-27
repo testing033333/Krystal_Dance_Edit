@@ -4,15 +4,15 @@
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "You look new here!";
 		Duration = 2;
-		Text = "This script is downloading audio files for the script to function."
+		Text = "This is downloading audio files for the script to function."
 	})
                  task.wait(1)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "Please wait...";
 		Duration = 2;
-		Text = "This might take 5-7 minutes to finish up downloads (Check Dances folder in files!)."
+		Text = "This might take 5-7 minutes to finish up everything (Check Dances folder in files!)."
 	})
-
+                 task.wait(1)
 writefile("Dances/ive earned the right to hate myself.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/ive earned the right to hate myself.mp3?raw=true"))
   
