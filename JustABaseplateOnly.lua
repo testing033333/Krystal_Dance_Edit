@@ -1,4 +1,4 @@
-jabonly
+-- as said. its just for Just a Baseplate ONLY!
 local Players = game:GetService("Players")
 local StarterGui = game:GetService("StarterGui")
 
