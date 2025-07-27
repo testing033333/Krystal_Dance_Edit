@@ -109,8 +109,8 @@ writefile("Dances/Nhk!_.mp3",
 writefile("Dances/Toromi Hearts 2.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Toromi Hearts 2.mp3?raw=true"))
   
-writefile("Dances/femtanyl - MURDER EVERY 1 U KNOW! (feat. takihasdied).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - MURDER EVERY 1 U KNOW! (feat. takihasdied)?raw=true"))
+writefile("Dances/MURDER EVERY 1 U KNOW! (feat. takihasdied).mp3", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/MURDER EVERY 1 U KNOW! (feat.%20takihasdied).mp3?raw=true"))
   
 writefile("Dances/atention.ogg", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/atention.ogg?raw=true"))
