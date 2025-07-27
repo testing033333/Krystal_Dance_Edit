@@ -94,6 +94,7 @@ StarterGui:SetCore("SendNotification", {
         print("7/27/25 - 12:41 PM PT")
         print("Forgot to mention about this script along with the old Reanimation version has been submitted to Scriptblox (7/25/25)!!")
         print("ALSO ADDED THE WRITEFILES IN EVERY KEY (fucking finally 😭)!!!!!!!!!!!!!!!!!")
+        print("Only downside here though is the dances are beginning to load longer, so expect that while i make a downloader myself sometime.")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
 	print("1. It prevents accessories from floating away, helpful when you want to afk and not see yourself be an abomination or whatever.")
