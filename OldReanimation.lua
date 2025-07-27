@@ -1614,7 +1614,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Nhk!_.mp3", 
+					writefile("Dances/funny.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/funny.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/funny.mp3")
 			sound69.PlaybackSpeed = 1
