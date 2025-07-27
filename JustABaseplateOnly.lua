@@ -182,7 +182,8 @@ end
 		-- Play animation
 		local Intro = Animator.new(character, 124033675853489)
 		Intro:Play()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal_Dance_Edit/refs/heads/main/ANTIDEPRESSANTAUDIOPAK.luau")        loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal-Dance-V3-Edit/refs/heads/main/funny tag"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal_Dance_Edit/refs/heads/main/ANTIDEPRESSANTAUDIOPAK.luau")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal-Dance-V3-Edit/refs/heads/main/funny tag"))()
 	local lol = math.random(1,30)
 	if lol == 2 then 
 	lol = true 
