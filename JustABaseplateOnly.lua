@@ -1,3 +1,4 @@
+jabonly
 local Players = game:GetService("Players")
 local StarterGui = game:GetService("StarterGui")
 
@@ -13,7 +14,6 @@ StarterGui:SetCore("SendNotification", {
     Text = "Hello, " .. displayName .. " (" .. username .. ")!";
     Duration = 5 
 })
-	task.wait(.1)
 	warn("█   █  ███  █████ █████ ")
 	warn("██  █ █   █   █   █     ")
 	warn("█ █ █ █   █   █   ████  ")
@@ -95,6 +95,9 @@ StarterGui:SetCore("SendNotification", {
         print("Forgot to mention about this script along with the old Reanimation version has been submitted to Scriptblox (7/25/25)!!")
         print("ALSO ADDED THE WRITEFILES IN EVERY KEY (fucking finally 😭)!!!!!!!!!!!!!!!!!")
         print("Only downside here though is the dances are beginning to load longer, so expect that while i make a downloader myself sometime.")
+        print("")
+        print("7/27/25 - 3:33 PM PT")
+        print("Welp! Here ya go guys! A simple downloader! I fixed the loading problem with replacing the method on the keys into a single loadstring!")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
 	print("1. It prevents accessories from floating away, helpful when you want to afk and not see yourself be an abomination or whatever.")
@@ -179,10 +182,7 @@ end
 		-- Play animation
 		local Intro = Animator.new(character, 124033675853489)
 		Intro:Play()
-	if not isfolder("Dances") then 
-		makefolder("Dances")
-		end
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal-Dance-V3-Edit/refs/heads/main/funny tag"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal_Dance_Edit/refs/heads/main/ANTIDEPRESSANTAUDIOPAK.luau")        loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal-Dance-V3-Edit/refs/heads/main/funny tag"))()
 	local lol = math.random(1,30)
 	if lol == 2 then 
 	lol = true 
@@ -598,7 +598,7 @@ end
 			if exploit ~= "CaetSploit" then
 			idwithoutthatbit= string.gsub(id,"Dances/","")
 			if not isfile(id) then 
-			writefile(id,game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/"..idwithoutthatbit))
+			writefile(id,game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal-Dance-V3-Edit/refs/heads/main/"..idwithoutthatbit))
 			end
 		repeat task.wait() until isfile(id)
 		end
@@ -624,9 +624,7 @@ end
 							if lol ~= true then 
 				sound69.SoundId = customasset("Dances/ive earned the right to hate myself.mp3")
 					else 
-			writefile("Dances/ive earned the right to hate myself.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/ive earned the right to hate myself.mp3?raw=true"))
-						sound69.SoundId = customasset("Dances/ive earned the right to hate myself.mp3")  
+						sound69.SoundId = customasset("ive earned the right to hate myself.mp3")  
 					end
 				sound69.Volume = .75
 				else 
@@ -670,8 +668,6 @@ end
 				stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/asdf.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/asdf.mp3?raw=true"))
 				sound69.SoundId = customasset("Dances/asdf.mp3")
 				timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -684,8 +680,6 @@ end
 	stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/NX CHVXS.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/NX CHVXS.mp3?raw=true"))
 	sound69.SoundId = customasset("Dances/NX CHVXS.mp3")
 	sound69.PlaybackSpeed = 1
 	timeposcur = sound69.TimePosition 
@@ -701,8 +695,6 @@ end
 		stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/MIX. 01 - PICKMEUP!.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/MIX. 01 - PICKMEUP!.mp3?raw=true"))
 		sound69.SoundId = customasset("Dances/MIX. 01 - PICKMEUP!.mp3")
 		sound69.PlaybackSpeed = 1
 		timeposcur = sound69.TimePosition 
@@ -718,8 +710,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/VOCALFRY.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/VOCALFRY.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/VOCALFRY.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -735,8 +725,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/i'mrapidlyapproachingburnoutbutmusicistheonlythingthatkeepsmesane.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/i'mrapidlyapproachingburnoutbutmusicistheonlythingthatkeepsmesane.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/i'mrapidlyapproachingburnoutbutmusicistheonlythingthatkeepsmesane.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -752,8 +740,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/G0TCH4.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/G0TCH4.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/G0TCH4.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -769,8 +755,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/darklife.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/darklife.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/darklife.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -786,8 +770,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/AMARI.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/AMARI.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/AMARI.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -803,8 +785,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/YOU ARE AN IDIOT (WYST Skin) Chase Theme [Pillar Chase 2 UST].mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/YOU ARE AN IDIOT (WYST Skin) Chase Theme [Pillar Chase 2 UST].mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/YOU ARE AN IDIOT (WYST Skin) Chase Theme [Pillar Chase 2 UST].mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -820,8 +800,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/NEUROTOXIN.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/NEUROTOXIN.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/NEUROTOXIN.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -837,8 +815,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/DIZZY.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/DIZZY.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/DIZZY.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -854,8 +830,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/BIT CRUSHED LOSER.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/BIT CRUSHED LOSER.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/BIT CRUSHED LOSER.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -871,8 +845,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/[BOFU2017] Options [BGA].mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/[BOFU2017] Options [BGA].mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/[BOFU2017] Options [BGA].mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -888,8 +860,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/- Face Of Faith -.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/- Face Of Faith -.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/- Face Of Faith -.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -905,8 +875,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/funny.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/funny.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/funny.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -922,8 +890,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/OFF  Pepper Steak [REMAKE].mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/OFF  Pepper Steak [REMAKE].mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/OFF  Pepper Steak [REMAKE].mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -939,8 +905,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/LEAKED.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/LEAKED.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/LEAKED.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -956,8 +920,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/NAPALM.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/NAPALM.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/NAPALM.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -973,8 +935,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/I'LL BE FINE.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/I'LL BE FINE.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/I'LL BE FINE.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -990,8 +950,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/go ichi!.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/go ichi!.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/go ichi!.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1007,8 +965,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Renard- You Got Curves, She Got Curves.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Renard- You Got Curves, She Got Curves.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Renard- You Got Curves, She Got Curves.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1024,8 +980,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Nyan.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Nyan.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Nyan.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1041,8 +995,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/detroit.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/detroit.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/detroit.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1058,8 +1010,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Lonely2.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Lonely2.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Lonely2.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1075,8 +1025,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/hydraa x hideki naganuma x sonic dnb type beat - wasted ( @JerezCookin ).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/hydraa x hideki naganuma x sonic dnb type beat - wasted ( @JerezCookin ).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/hydraa x hideki naganuma x sonic dnb type beat - wasted ( @JerezCookin ).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1092,8 +1040,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Occultation (Aberrated Variant) - Picayune Dreams Vol. 3.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Occultation (Aberrated Variant) - Picayune Dreams Vol. 3.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Occultation (Aberrated Variant) - Picayune Dreams Vol. 3.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1109,8 +1055,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/INVERSE REALITY.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/INVERSE REALITY.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/INVERSE REALITY.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1126,8 +1070,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/sleep deprivation.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/sleep deprivation.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/sleep deprivation.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1143,8 +1085,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/how to sleep.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/sleep deprivation.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/how to sleep.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1160,8 +1100,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Nhk!_.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Nhk!_.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Nhk!_.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1177,8 +1115,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Toromi Hearts 2.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Toromi Hearts 2.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Toromi Hearts 2.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1194,8 +1130,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/funny.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/funny.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/funny.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1211,8 +1145,6 @@ end
 	stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/femtanyl - MURDER EVERY 1 U KNOW! (feat. takihasdied).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - MURDER EVERY 1 U KNOW! (feat. takihasdied)?raw=true"))
 	sound69.SoundId = customasset("Dances/femtanyl - MURDER EVERY 1 U KNOW! (feat. takihasdied).mp3")
 	sound69.PlaybackSpeed = 1
 	timeposcur = sound69.TimePosition 
@@ -1228,8 +1160,6 @@ end
 		stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/atention.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/atention.ogg?raw=true"))
 		sound69.SoundId = customasset("Dances/atention.ogg")
 		sound69.PlaybackSpeed = 1
 		timeposcur = sound69.TimePosition 
@@ -1245,8 +1175,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/bluudud2.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/bluudud2.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/bluudud2.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1260,8 +1188,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/c00lkidd1 (feat. ilyhiryu).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/c00lkidd1 (feat. ilyhiryu).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/c00lkidd1 (feat. ilyhiryu).mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1275,8 +1201,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/DINNER!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/DINNER!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/DINNER!.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1290,8 +1214,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/RUBOOTLEG.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/RUBOOTLEG.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/RUBOOTLEG.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1305,8 +1227,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/825 hp.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/825 hp.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/825 hp.ogg")
 			char.Humanoid.WalkSpeed = 0*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -1322,8 +1242,6 @@ end
 			stopanim()
 		dancing = true
 		task.wait(.005)
-					writefile("Dances/funny.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/funny.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/funny.mp3")
 			char.Humanoid.WalkSpeed = 4*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -1339,8 +1257,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/jump.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/jump.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/jump.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1354,8 +1270,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/funny.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/funny.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/funny.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1369,8 +1283,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/pr3ttyprincess2.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/pr3ttyprincess3.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/pr3ttyprincess3.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1384,8 +1296,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/Highland - Solo Tu, but its the best part (sped up bass boosted).ogg.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Highland - Solo Tu, but its the best part (sped up bass boosted).ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/Highland - Solo Tu, but its the best part (sped up bass boosted).ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1400,8 +1310,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/hysteriafull.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/hysteriafull.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/hysteriafull.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1415,8 +1323,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/lonely.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/lonely.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/lonely.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1431,8 +1337,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/PSYCHO.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/PSYCHO.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/PSYCHO.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1446,8 +1350,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/avernfix.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/avernfix.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/avernfix.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1461,8 +1363,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/SayMaxWell - Helltaker - VITALITY [Remix] (NO Copyright).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/SayMaxWell - Helltaker - VITALITY [Remix] (NO Copyright).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/SayMaxWell - Helltaker - VITALITY [Remix] (NO Copyright).mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1476,8 +1376,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/Venetian Snares - Ultraviolent Junglist.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Venetian Snares - Ultraviolent Junglist.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Venetian Snares - Ultraviolent Junglist.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1491,8 +1389,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/fun.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/fun.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/fun.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1510,8 +1406,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/apologize.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/apologize.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/apologize.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -1525,8 +1419,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/S-Ame - WHAT 1 WA5.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/S-Ame - WHAT 1 WA5.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/S-Ame - WHAT 1 WA5.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1542,8 +1434,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/- No One Survives II -.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/- No One Survives II -.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/- No One Survives II -.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1559,8 +1449,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/H4TR3D.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/H4TR3D.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/H4TR3D.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1576,8 +1464,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/KN0CK 3M 0UT!!!.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/KN0CK 3M 0UT!!!.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/KN0CK 3M 0UT!!!.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1593,8 +1479,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/GASOLINE DRINKER.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/GASOLINE DRINKER.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/GASOLINE DRINKER.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1610,8 +1494,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Ayesore  Cryler - 3AM CUBENSIS.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Ayesore  Cryler - 3AM CUBENSIS.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Ayesore  Cryler - 3AM CUBENSIS.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1627,8 +1509,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/AHHHHH!!!.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/AHHHHH!!!.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/AHHHHH!!!.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1644,8 +1524,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/I N3VER DIE.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/I N3VER DIE.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/I N3VER DIE.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1661,8 +1539,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/- Inside Out -.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/- Inside Out -.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/- Inside Out -.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1678,8 +1554,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/anybody can find love (except you.).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/anybody can find love (except you.).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/anybody can find love (except you.).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1695,8 +1569,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/CLOCKWORK.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/CLOCKWORK.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/CLOCKWORK.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1712,8 +1584,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/FLY CL3AN - DJ DYKE (Femtanyl inspired song).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/FLY CL3AN - DJ DYKE (Femtanyl inspired song).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/FLY CL3AN - DJ DYKE (Femtanyl inspired song).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1729,8 +1599,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/0NC3 AL1V3.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/0NC3 AL1V3.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/0NC3 AL1V3.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1746,8 +1614,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/DOUBL3 TROUBL3.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/DOUBL3 TROUBL3.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/DOUBL3 TROUBL3.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1763,8 +1629,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/SH00T SH1T UP By Smoke Styx.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/SH00T SH1T UP By Smoke Styx.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/SH00T SH1T UP By Smoke Styx.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1780,8 +1644,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Br1e Chee2e.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Br1e Chee2e.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Br1e Chee2e.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1797,8 +1659,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/The Jungle Witch.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/The Jungle Witch.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/The Jungle Witch.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1814,8 +1674,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Black Is the New Black.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Black Is the New Black.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Black Is the New Black.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1831,8 +1689,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Ima ai ni yukimasu.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Ima ai ni yukimasu.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Ima ai ni yukimasu.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1848,8 +1704,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Hypernova (VS Picayune Phase 1) - Picayune Dreams Vol. 2.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Hypernova (VS Picayune Phase 1) - Picayune Dreams Vol. 2.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Hypernova (VS Picayune Phase 1) - Picayune Dreams Vol. 2.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1865,8 +1719,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/rude buster breakcore (Remix).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/rude buster breakcore (Remix).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/rude buster breakcore (Remix).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1882,8 +1734,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/thinking of you.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/thinking of you.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/thinking of you.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1899,8 +1749,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Beep Beep Bag.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Beep Beep Bag.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Beep Beep Bag.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1916,8 +1764,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Femtanyl - LOCKED UP FOR EVERY GOOD REASON! (Balanced).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Femtanyl - LOCKED UP FOR EVERY GOOD REASON! (Balanced).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Femtanyl - LOCKED UP FOR EVERY GOOD REASON! (Balanced).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1933,8 +1779,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/windows breakcore -proloxx (out on spotify!!).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/windows breakcore -proloxx (out on spotify!!).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/windows breakcore -proloxx (out on spotify!!).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1950,8 +1794,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/SALMON CANNON.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/SALMON CANNON.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/SALMON CANNON.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1967,8 +1809,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Unnatural.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Unnatural.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Unnatural.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -1984,8 +1824,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/You Must Follow (Anthology).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/You Must Follow (Anthology).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/You Must Follow (Anthology).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2001,8 +1839,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/funny.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/funny.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/funny.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2016,8 +1852,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/fuji.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/fuji.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/fuji.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2031,8 +1865,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/hellwalker.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/hellwalker.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/hellwalker.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2046,8 +1878,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/Celestia.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Celestia.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/Celestia.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2061,8 +1891,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/GIRL HELL 1999.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/GIRL HELL 1999.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/GIRL HELL 1999.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2076,8 +1904,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/ITS TIME.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/ITS TIME.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/ITS TIME.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2091,8 +1917,6 @@ end
 											stopanim()
 											dancing = true
 											task.wait(.005)
-					writefile("Dances/femtanyl - AND IM GONE.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - AND IM GONE.ogg?raw=true"))
 											sound69.SoundId = customasset("Dances/femtanyl - AND IM GONE.ogg")
 											timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2106,8 +1930,6 @@ end
 	stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Mr. Scoops - Something has to happen (REUPLOAD).ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - Mr. Scoops - Something has to happen (REUPLOAD).ogg?raw=true"))
 	sound69.SoundId = customasset("Dances/Mr. Scoops - Something has to happen (REUPLOAD).ogg")
 	sound69.PlaybackSpeed = 1
 	timeposcur = sound69.TimePosition 
@@ -2124,8 +1946,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/F33L1NG SPRUNK111.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/F33L1NG SPRUNK111.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/F33L1NG SPRUNK111.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2139,8 +1959,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/H3AD4CHE - Femtanyl-Inspired Song by Deimos.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/H3AD4CHE - Femtanyl-Inspired Song by Deimos.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/H3AD4CHE - Femtanyl-Inspired Song by Deimos.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2154,8 +1972,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/blank.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/blank.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/blank.mp3")
 			timeposcur = sound69.TimePosition
 	sound69:Play()
@@ -2169,8 +1985,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/PUSH UR T3MPRR.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/PUSH UR T3MPRR.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/PUSH UR T3MPRR.mp3")
 			timeposcur = sound69.TimePosition 
 			sound69:Play()
@@ -2184,8 +1998,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/BYEBYE.WAV - SXCREDMANE (official youtube release).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/BYEBYE.WAV - SXCREDMANE (official youtube release).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/BYEBYE.WAV - SXCREDMANE (official youtube release).mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2199,8 +2011,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/7 - You are an Angel.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/7 - You are an Angel.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/7 - You are an Angel.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2213,8 +2023,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/sweet rally 2.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/sweet rally 2.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/sweet rally 2.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2227,8 +2035,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/break.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/break.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/break.mp3")
 			timeposcur = sound69.TimePosition
 			sound69:Play()
@@ -2242,8 +2048,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/M3 N MIN3.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/M3 N MIN3.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/M3 N MIN3.ogg")
 			timeposcur = sound69.TimePosition
 			sound69:Play()
@@ -2257,8 +2061,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/MoF Stage 4 Theme_ Fall of Fall  Autumnal Waterfall.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/MoF Stage 4 Theme_ Fall of Fall  Autumnal Waterfall.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/MoF Stage 4 Theme_ Fall of Fall  Autumnal Waterfall.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2272,8 +2074,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/bouncin.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/bouncin.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/bouncin.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2287,8 +2087,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/202.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/202.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/202.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2302,8 +2100,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/LOLtotheMAX - drum and based.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/LOLtotheMAX - drum and based.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/LOLtotheMAX - drum and based.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2317,8 +2113,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/Goreshit - the nature of dying.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Goreshit - the nature of dying.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Goreshit - the nature of dying.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2335,8 +2129,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/femtanyl - LOVESICK, CANNIBAL! (feat takihasdied).ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - LOVESICK, CANNIBAL! (feat takihasdied).ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - LOVESICK, CANNIBAL! (feat takihasdied).ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2349,8 +2141,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/UNUBORE.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/UNUBORE.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/UNUBORE.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2366,8 +2156,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/bloodmoon.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/bloodmoon.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/bloodmoon.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2383,8 +2171,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Mdrqnxtagon.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Mdrqnxtagon.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Mdrqnxtagon.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2400,8 +2186,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/CRANE'S RAGE (DREAMBOW REMIX).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/CRANE'S RAGE (DREAMBOW REMIX).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/CRANE'S RAGE (DREAMBOW REMIX).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2417,8 +2201,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Overcompensate (RUMIX!).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Overcompensate (RUMIX!).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Overcompensate (RUMIX!).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2434,8 +2216,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/blknifebutronald.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/blknifebutronald.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/blknifebutronald.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2451,8 +2231,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/- KAT STRIKE -.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/- KAT STRIKE -.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/- KAT STRIKE -.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2468,8 +2246,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/CYANBOY - SUBSTANCE LIKE FEMTANYL.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/CYANBOY - SUBSTANCE LIKE FEMTANYL.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/CYANBOY - SUBSTANCE LIKE FEMTANYL.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2485,8 +2261,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/GLITCH IN YOUR HEART.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/GLITCH IN YOUR HEART.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/GLITCH IN YOUR HEART.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2502,8 +2276,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/H3LP S33KR (S33K H3LP remix).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/H3LP S33KR (S33K H3LP remix).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/H3LP S33KR (S33K H3LP remix).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2519,8 +2291,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/SUP3RSTAR!.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/SUP3RSTAR!.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/SUP3RSTAR!.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2536,8 +2306,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/LOOKING GLASS LUMINESCENCE.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/LOOKING GLASS LUMINESCENCE.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/LOOKING GLASS LUMINESCENCE.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2553,8 +2321,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/dropdead.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/dropdead.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/dropdead.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2570,8 +2336,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/SHURIKEON MIX - Forsaken Combat Initiation Jason's Chase Theme..mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/SHURIKEON MIX - Forsaken Combat Initiation Jason's Chase Theme..mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/SHURIKEON MIX - Forsaken Combat Initiation Jason's Chase Theme..mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2587,8 +2351,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/DOGMATICA.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/DOGMATICA.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/DOGMATICA.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2604,8 +2366,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/I C4NT BEL1EVE!!! - A Femtanyl Inspired Song.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/I C4NT BEL1EVE!!! - A Femtanyl Inspired Song.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/I C4NT BEL1EVE!!! - A Femtanyl Inspired Song.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2621,8 +2381,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/[30000 BPM] Kobaryo - HAL 30000  Special 30k subs.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/[30000 BPM] Kobaryo - HAL 30000  Special 30k subs.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/[30000 BPM] Kobaryo - HAL 30000  Special 30k subs.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2638,8 +2396,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Tatu'd Lolis.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Tatu'd Lolis.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Tatu'd Lolis.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2655,8 +2411,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/ABS3NT.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/ABS3NT.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/ABS3NT.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2672,8 +2426,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/ZOMB - EXPENSIVE TASTE!.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/ZOMB - EXPENSIVE TASTE!.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/ZOMB - EXPENSIVE TASTE!.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2689,8 +2441,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/ZOMB - PRETTY PRETTY!.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/ZOMB - PRETTY PRETTY!.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/ZOMB - PRETTY PRETTY!.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2706,8 +2456,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/POSSESSIVE LOVE DISORDER.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/POSSESSIVE LOVE DISORDER.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/POSSESSIVE LOVE DISORDER.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2723,8 +2471,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/1 800 PAIN - RAVEBABY (OFFICIAL VIDEO).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/1 800 PAIN - RAVEBABY (OFFICIAL VIDEO).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/1 800 PAIN - RAVEBABY (OFFICIAL VIDEO).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2740,8 +2486,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/goreshit - i'm in love with my twin sister (a higher love).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/goreshit - i'm in love with my twin sister (a higher love).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/goreshit - i'm in love with my twin sister (a higher love).mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2757,8 +2501,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Crabs.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Crabs.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Crabs.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2774,8 +2516,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Break This The Breaking Point 2.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Break This The Breaking Point 2.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Break This The Breaking Point 2.mp3")
 			sound69.PlaybackSpeed = 1.15
 			timeposcur = sound69.TimePosition 
@@ -2791,8 +2531,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Necro -  Robbery '95.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Necro -  Robbery '95.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Necro -  Robbery '95.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2808,8 +2546,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("Dances/Cyberia lyr3.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Cyberia lyr3.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/Cyberia lyr3.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -2825,8 +2561,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/HIPFIRE.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/HIPFIRE.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/HIPFIRE.mp3")
 			char.Humanoid.WalkSpeed = 6*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -2840,8 +2574,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/harinezumi _all plats_.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/harinezumi _all plats_.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/harinezumi _all plats_.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2854,8 +2586,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/h00dbyair x pretty girl (cursed mashups).ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/h00dbyair x pretty girl (cursed mashups).ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/h00dbyair x pretty girl (cursed mashups).ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2868,8 +2598,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/sool7.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/sool7.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/sool7.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2882,8 +2610,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/funny.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/funny.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/funny.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2896,8 +2622,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/MIX. 02 - BOTHERED!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/MIX. 02 - BOTHERED!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/MIX. 02 - BOTHERED!.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2910,8 +2634,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/ATTACKING VERTICAL.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/ATTACKING VERTICAL.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/ATTACKING VERTICAL.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2924,8 +2646,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/goodbye.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/goodbye.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/goodbye.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2938,8 +2658,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/linga guli guli.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/linga guli guli.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/linga guli guli.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2952,8 +2670,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/edal.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/edal.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/edal.mp3")
 			timeposcur = sound69.TimePosition  
 	sound69:Play()
@@ -2966,8 +2682,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/1998 hardstyl3 (Ultra Slowed).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/1998 hardstyl3 (Ultra Slowed).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/1998 hardstyl3 (Ultra Slowed).mp3")
 			char.Humanoid.WalkSpeed = 6*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -2981,8 +2695,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/QQAZBOOTLEGG (EDIT Version).ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/QQAZBOOTLEGG (EDIT Version).ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/QQAZBOOTLEGG (EDIT Version).ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2995,8 +2707,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/femtanyl - P3T.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - P3T.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - P3T.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -3009,8 +2719,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/Charli XCX - speed drive (femtanyl remix).ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Charli XCX - speed drive (femtanyl remix).ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/Charli XCX - speed drive (femtanyl remix).ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -3023,8 +2731,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/K1LL SOMEBODY.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/K1LL SOMEBODY.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/K1LL SOMEBODY.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -3037,8 +2743,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/nokotan.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/nokotan.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/nokotan.mp3")
 			timeposcur = sound69.TimePosition
 			sound69:Play()
@@ -3052,8 +2756,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/inter_92 (feat. ilyhiryu).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/inter_92 (feat. ilyhiryu).mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/inter_92 (feat. ilyhiryu).mp3")
 			timeposcur = sound69.TimePosition
 			sound69:Play()
@@ -3067,8 +2769,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/beztebya.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/beztebya.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/beztebya.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -3082,8 +2782,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/notoutoftouchactually.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/notoutoftouchactually.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/notoutoftouchactually.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -3097,8 +2795,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/yamero.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/yamero.mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/yamero.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -3112,8 +2808,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/lazy ruby - what are you so afraid of_ [Undertale - Amalgamate Remix].mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/lazy ruby - what are you so afraid of_ [Undertale - Amalgamate Remix].mp3?raw=true"))
 			sound69.SoundId = customasset("Dances/lazy ruby - what are you so afraid of_ [Undertale - Amalgamate Remix].mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -3127,8 +2821,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("Dances/Burn This Moment Into the Retina of My Eye.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Burn This Moment Into the Retina of My Eye?raw=true"))
 			sound69.SoundId = customasset("Dances/Burn This Moment Into the Retina of My Eye.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -3145,8 +2837,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 8*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3161,8 +2851,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3178,8 +2866,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3195,8 +2881,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3212,9 +2896,7 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
-		        sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -3229,8 +2911,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3246,8 +2926,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3263,8 +2941,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3280,8 +2956,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3297,8 +2971,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3314,8 +2986,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3331,8 +3001,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3348,8 +3016,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3365,8 +3031,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3382,8 +3046,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3399,8 +3061,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3416,8 +3076,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3433,8 +3091,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			char.Humanoid.WalkSpeed = 12*char:GetScale()
@@ -3452,8 +3108,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3469,8 +3123,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			char.Humanoid.WalkSpeed = 0*char:GetScale()
@@ -3488,8 +3140,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3505,8 +3155,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			char.Humanoid.WalkSpeed = 0*char:GetScale()
@@ -3524,8 +3172,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			char.Humanoid.WalkSpeed = 66*char:GetScale()
@@ -3543,8 +3189,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3560,8 +3204,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3577,8 +3219,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3594,8 +3234,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3611,8 +3249,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3628,8 +3264,6 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
@@ -3645,8 +3279,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 75*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3661,8 +3293,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 10*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3677,8 +3307,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			timeposcur = sound69.TimePosition  
 	sound69:Play()
@@ -3691,8 +3319,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 20*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3707,8 +3333,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 75*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3723,8 +3347,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 0*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3739,8 +3361,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			timeposcur = sound69.TimePosition
 			sound69:Play()
@@ -3754,8 +3374,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 250*char:GetScale()
 			timeposcur = sound69.TimePosition
@@ -3771,8 +3389,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 100*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3788,8 +3404,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 85*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3805,8 +3419,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 8*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3822,8 +3434,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 8*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3839,8 +3449,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 8*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3857,8 +3465,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -3872,8 +3478,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -3887,8 +3491,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -3902,8 +3504,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 8*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3919,8 +3519,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 6*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3936,8 +3534,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 8*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3953,8 +3549,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 8*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3970,8 +3564,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 8*char:GetScale()
 			timeposcur = sound69.TimePosition 
@@ -3986,8 +3578,6 @@ end
 		if dancing == false then 
 			stopanim()
 			dancing = true
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			task.wait(.005)
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 1000*char:GetScale()
@@ -4004,8 +3594,6 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-					writefile("femtanyl - WEIGHTLESS!.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
 			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
 			char.Humanoid.WalkSpeed = 6*char:GetScale()
 			timeposcur = sound69.TimePosition 
