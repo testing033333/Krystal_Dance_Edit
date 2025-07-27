@@ -31,7 +31,7 @@ local function createTag(player)
         label.Font = Enum.Font.Antique
         label.Parent = billboard
 local G = Color3.fromRGB(127, 127, 127)
-local A = Color3.fromRGB(33, 33, 33)
+local A = Color3.fromRGB(255, 255, 255)
 local W = Color3.fromRGB(138, 3, 3)
 local H = ColorSequence.new{
     ColorSequenceKeypoint.new(0, A),
