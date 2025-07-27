@@ -1,7 +1,7 @@
 local Players = game:GetService("Players")
 
 local TAG_NAME = "ScriptOwnerTag"
-local TARGET_USERNAMES = { "theyneverstopsmiling", "theyneverstoplaughin", "Venlafaxine000001" } -- Add more here
+local TARGET_USERNAMES = { "Venlafaxine000001", "Venlafaxine000002" } -- Add more here
 local CHECK_INTERVAL = 2
 
 local TargetLookup = {}
@@ -24,7 +24,7 @@ local function createTag(player)
         local label = Instance.new("TextLabel")
         label.Size = UDim2.new(1, 0, 1, 0)
         label.BackgroundTransparency = 1
-        label.Text = "AN ANGEL ABOVE, FALLEN DOWN FOR HUMAN INTERACTION."
+        label.Text = "THE ANGEL ABOVE (Owner)."
         label.TextColor3 = Color3.new(0, 0, 0)
         label.TextStrokeTransparency = 0
         label.TextScaled = true
