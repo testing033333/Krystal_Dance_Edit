@@ -4,5 +4,5 @@ This has been approved by SonixDev, with the dancing script (now with a nonsensi
 ---
 
 > [!NOTE]
-> yea actually it would have been simpler if i were to put on the writefile method on ALL keys than just guiding people :sob:
-> im sorry yall if you had your time wasted just to download everything for the script to work
+> yea actually it would have been simpler if i were to put on the writefile method on ALL keys than just guiding people
+> im sorry yall if you had your time wasted just to download everything for the script to work :sob:
