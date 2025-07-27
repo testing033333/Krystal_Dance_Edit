@@ -4258,19 +4258,25 @@ StarterGui:SetCore("SendNotification", {
 	})
 	task.wait(3)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "KDv3 Modded";
+		Title = "KDV3 Modded";
 		Duration = 2;
-		Text = "To SonixDev/Crimson"
+		Text = "To SonixDev/Crimson (seriously though, his script's my inspiration)"
 	})
 	task.wait(3)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "Modded Gelatek Reanim";
 		Duration = 2;
-		Text = "To Theo/Paradigm (which vro didnt do much about it but meh. Also, Gelatekussy the OG of the reanim)"
+		Text = "To Theo/Paradigm (not much though. Gelatekussy the OG tho!)"
 	})
 	task.wait(3)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "This Edit of KDV3";
+		Title = "Audio Downloader Idea";
+		Duration = 2;
+		Text = "To Theo/Paradigm"
+	})
+	task.wait(3)
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Music Change";
 		Duration = 2;
 		Text = "To Test_033333/Venlafaxine"
 	})
