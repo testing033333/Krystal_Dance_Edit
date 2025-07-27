@@ -1,4 +1,4 @@
---old
+-- just because it says old reanimation doesnt mean its bad ok?
 local Players = game:GetService("Players")
 local StarterGui = game:GetService("StarterGui")
 
