@@ -3,5 +3,5 @@ This has been approved by SonixDev, with the dancing script (now with a nonsensi
 
 ---
 
-> [TIP!]
+> [!TIP]
 > If you find any bugs or have any suggestions for me to add in this script, [I have my DMs open for anyone needed to send out your message to my Discord user!](https://discord.com/users/1351454752952549426)
