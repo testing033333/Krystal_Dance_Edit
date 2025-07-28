@@ -55,8 +55,8 @@ writefile("Dances/DIZZY.mp3",
 writefile("Dances/BIT CRUSHED LOSER.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/BIT CRUSHED LOSER.mp3?raw=true"))
   
-writefile("Dances/[BOFU2017] Options [BGA].mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/[BOFU2017] Options [BGA].mp3?raw=true"))
+writefile("Dances/BOFU2017 Options BGA.mp3", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/BOFU2017 Options BGA.mp3?raw=true"))
   
 writefile("Dances/- Face Of Faith -.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/- Face Of Faith -.mp3?raw=true"))
