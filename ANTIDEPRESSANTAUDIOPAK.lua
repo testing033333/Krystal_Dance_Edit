@@ -110,7 +110,7 @@ writefile("Dances/Toromi Hearts 2.mp3",
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Toromi Hearts 2.mp3?raw=true"))
   
 writefile("Dances/MURDER EVERY 1 U KNOW! (feat. takihasdied).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/MURDER EVERY 1 U KNOW! (feat.%20takihasdied).mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/MURDER EVERY 1 U KNOW! (feat. takihasdied).mp3?raw=true"))
   
 writefile("Dances/atention.ogg", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/atention.ogg?raw=true"))
@@ -137,7 +137,7 @@ writefile("Dances/pr3ttyprincess3.mp3",
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/pr3ttyprincess3.mp3?raw=true"))
   
 writefile("Dances/Highland - Solo Tu, but its the best part sped up bass boosted.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Highland%20-%20Solo%20Tu,%20but%20its%20the%20best%20part%20sped%20up%20bass%20boosted.ogg?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Highland - Solo Tu, but its the best part sped up bass boosted.ogg?raw=true"))
   
 writefile("Dances/hysteriafull.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/hysteriafull.mp3?raw=true"))
@@ -455,19 +455,19 @@ writefile("Dances/lazy ruby - what are you so afraid of_ Undertale - Amalgamate 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/lazy ruby - what are you so afraid of_ Undertale - Amalgamate Remix.mp3?raw=true"))
   
 writefile("Dances/Burn This Moment Into the Retina of My Eye.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Burn%20This%20Moment%20Into%20the%20Retina%20of%20My%20Eye.mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Burn This Moment Into the Retina of My Eye.mp3?raw=true"))
 
 writefile("Dances/Occultation (Aberrated Variant) - Picayune Dreams Vol. 3.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Occultation (Aberrated Variant) - Picayune Dreams Vol. 3.mp3?raw=true"))
 
 writefile("Dances/OFF  Pepper Steak [REMAKE].mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/OFF%20%20Pepper%20Steak%20%5BREMAKE%5D.mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/OFF  Pepper Steak [REMAKE].mp3?raw=true"))
 
 writefile("Dances/SayMaxWell - Helltaker - VITALITY.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/SayMaxWell%20-%20Helltaker%20-%20VITALITY.mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/SayMaxWell - Helltaker - VITALITY.mp3?raw=true"))
 
 writefile("Dances/PUSH UR T3MPRR.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/PUSH%20UR%20T3MPRR.mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/PUSH UR T3MPRR.mp3?raw=true"))
 
 warn("LOADED AUDIO PACK!")
                 end
