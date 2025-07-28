@@ -1,4 +1,4 @@
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal_Dance_Edit/refs/heads/main/ANTIDEPRESSANTAUDIOPAK.luau"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal_Dance_Edit/refs/heads/main/ANTIDEPRESSANTAUDIOPAK.lua"))()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal-Dance-V3-Edit/refs/heads/main/funny tag"))()
         local lol = math.random(1,30)
 	if lol == 2 then 
