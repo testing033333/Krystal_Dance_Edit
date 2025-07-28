@@ -186,8 +186,6 @@ end
 		-- Play animation
 		local Intro = Animator.new(character, 124033675853489)
 		Intro:Play()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal_Dance_Edit/refs/heads/main/ANTIDEPRESSANTAUDIOPAK.luau"))()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal-Dance-V3-Edit/refs/heads/main/funny tag"))()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal_Dance_Edit/refs/heads/main/ihadtoaddthisbecauseupdatingbothversionsistediousaf.lua"))()
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "Original KDV3";
