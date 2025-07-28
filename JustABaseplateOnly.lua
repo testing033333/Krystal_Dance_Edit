@@ -98,6 +98,9 @@ StarterGui:SetCore("SendNotification", {
         print("")
         print("7/27/25 - 3:33 PM PT")
         print("Welp! Here ya go guys! A simple downloader! I fixed the loading problem with replacing the method on the keys into a single loadstring!")
+        print("")
+        print("7/28/25 - 8:54 PM PT")
+        print("Fixed out the parts I missed out in the downloader!")
 	print("-------------------------------------------------------------------------")
 	print("This script uses Gelatek's Reanimation, which gives out some pros.")
 	print("1. It prevents accessories from floating away, helpful when you want to afk and not see yourself be an abomination or whatever.")
@@ -1364,7 +1367,7 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/SayMaxWell - Helltaker - VITALITY [Remix] (NO Copyright).mp3")
+			sound69.SoundId = customasset("Dances/SayMaxWell - Helltaker - VITALITY.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(8004387067,1.4)
@@ -2382,7 +2385,7 @@ end
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/[30000 BPM] Kobaryo - HAL 30000  Special 30k subs.mp3")
+			sound69.SoundId = customasset("Dances/30000 BPM Kobaryo - HAL 30000  Special 30k subs.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2809,7 +2812,7 @@ end
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/lazy ruby - what are you so afraid of_ [Undertale - Amalgamate Remix].mp3")
+			sound69.SoundId = customasset("Dances/lazy ruby - what are you so afraid of_ Undertale - Amalgamate Remix.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(124044710949643,1.5)
