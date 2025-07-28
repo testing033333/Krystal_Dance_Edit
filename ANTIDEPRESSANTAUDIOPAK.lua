@@ -43,8 +43,8 @@ writefile("Dances/darklife.mp3",
 writefile("Dances/AMARI.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/AMARI.mp3?raw=true"))
   
-writefile("Dances/YOU ARE AN IDIOT (WYST Skin) Chase Theme [Pillar Chase 2 UST].mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/YOU ARE AN IDIOT (WYST Skin) Chase Theme [Pillar Chase 2 UST].mp3?raw=true"))
+writefile("Dances/YOU ARE AN IDIOT WYST Skin Chase Theme Pillar Chase 2 UST.mp3", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/YOU ARE AN IDIOT WYST Skin Chase Theme Pillar Chase 2 UST.mp3?raw=true"))
   
 writefile("Dances/NEUROTOXIN.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/NEUROTOXIN.mp3?raw=true"))
