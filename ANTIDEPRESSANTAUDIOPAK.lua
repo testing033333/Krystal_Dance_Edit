@@ -461,10 +461,10 @@ writefile("Dances/Occultation (Aberrated Variant) - Picayune Dreams Vol. 3.mp3",
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Occultation (Aberrated Variant) - Picayune Dreams Vol. 3.mp3?raw=true"))
 
 writefile("Dances/OFF  Pepper Steak [REMAKE].mp3", 
-	https://github.com/testing033333/music/blob/Audio-1/OFF%20%20Pepper%20Steak%20%5BREMAKE%5D.mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/OFF%20%20Pepper%20Steak%20%5BREMAKE%5D.mp3?raw=true"))
 
 writefile("Dances/SayMaxWell - Helltaker - VITALITY.mp3", 
-	https://github.com/testing033333/music/blob/Audio-1/SayMaxWell%20-%20Helltaker%20-%20VITALITY.mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/SayMaxWell%20-%20Helltaker%20-%20VITALITY.mp3?raw=true"))
 
 writefile("Dances/PUSH UR T3MPRR.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/PUSH%20UR%20T3MPRR.mp3?raw=true"))
