@@ -133,11 +133,11 @@ writefile("Dances/825 hp.ogg",
 writefile("Dances/jump.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/jump.mp3?raw=true"))
   
-writefile("Dances/pr3ttyprincess2.mp3", 
+writefile("Dances/pr3ttyprincess3.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/pr3ttyprincess3.mp3?raw=true"))
   
-writefile("Dances/Highland - Solo Tu, but its the best part (sped up bass boosted).ogg.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Highland - Solo Tu, but its the best part (sped up bass boosted).ogg?raw=true"))
+writefile("Dances/Highland - Solo Tu, but its the best part sped up bass boosted.ogg", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Highland%20-%20Solo%20Tu,%20but%20its%20the%20best%20part%20sped%20up%20bass%20boosted.ogg?raw=true"))
   
 writefile("Dances/hysteriafull.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/hysteriafull.mp3?raw=true"))
@@ -289,8 +289,8 @@ writefile("Dances/sweet rally 2.mp3",
 writefile("Dances/break.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/break.mp3?raw=true"))
   
-writefile("Dances/M3 N MIN3.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/M3 N MIN3.mp3?raw=true"))
+writefile("Dances/M3 N MIN3.ogg", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/M3 N MIN3.ogg?raw=true"))
   
 writefile("Dances/MoF Stage 4 Theme_ Fall of Fall  Autumnal Waterfall.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/MoF Stage 4 Theme_ Fall of Fall  Autumnal Waterfall.mp3?raw=true"))
@@ -322,8 +322,8 @@ writefile("Dances/Mdrqnxtagon.mp3",
 writefile("Dances/CRANE'S RAGE (DREAMBOW REMIX).mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/CRANE'S RAGE (DREAMBOW REMIX).mp3?raw=true"))
 
-writefile("Dances/Overcompensate (RUMIX!)", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Overcompensate (RUMIX!).mp3?raw=true"))
+writefile("Dances/Overcompensate RUMIX!.mp3", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Overcompensate RUMIX!.mp3?raw=true"))
   
 writefile("Dances/blknifebutronald.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/blknifebutronald.mp3?raw=true"))
@@ -358,8 +358,8 @@ writefile("Dances/DOGMATICA.mp3",
 writefile("Dances/I C4NT BEL1EVE!!! - A Femtanyl Inspired Song.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/I C4NT BEL1EVE!!! - A Femtanyl Inspired Song.mp3?raw=true"))
   
-writefile("Dances/[30000 BPM] Kobaryo - HAL 30000  Special 30k subs.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/[30000 BPM] Kobaryo - HAL 30000  Special 30k subs.mp3?raw=true"))
+writefile("Dances/30000 BPM Kobaryo - HAL 30000  Special 30k subs.mp3", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/30000 BPM Kobaryo - HAL 30000  Special 30k subs.mp3?raw=true"))
   
 writefile("Dances/Tatu'd Lolis.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Tatu'd Lolis.mp3?raw=true"))
@@ -451,13 +451,23 @@ writefile("Dances/notoutoftouchactually.mp3",
 writefile("Dances/yamero.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/yamero.mp3?raw=true"))
   
-writefile("Dances/lazy ruby - what are you so afraid of_ [Undertale - Amalgamate Remix].mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/lazy ruby - what are you so afraid of_ [Undertale - Amalgamate Remix].mp3?raw=true"))
+writefile("Dances/lazy ruby - what are you so afraid of_ Undertale - Amalgamate Remix.mp3", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/lazy ruby - what are you so afraid of_ Undertale - Amalgamate Remix.mp3?raw=true"))
   
 writefile("Dances/Burn This Moment Into the Retina of My Eye.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Burn This Moment Into the Retina of My Eye?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Burn%20This%20Moment%20Into%20the%20Retina%20of%20My%20Eye.mp3?raw=true"))
 
 writefile("Dances/Occultation (Aberrated Variant) - Picayune Dreams Vol. 3.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Occultation (Aberrated Variant) - Picayune Dreams Vol. 3.mp3?raw=true"))
+
+writefile("Dances/OFF  Pepper Steak [REMAKE].mp3", 
+	https://github.com/testing033333/music/blob/Audio-1/OFF%20%20Pepper%20Steak%20%5BREMAKE%5D.mp3?raw=true"))
+
+writefile("Dances/SayMaxWell - Helltaker - VITALITY.mp3", 
+	https://github.com/testing033333/music/blob/Audio-1/SayMaxWell%20-%20Helltaker%20-%20VITALITY.mp3?raw=true"))
+
+writefile("Dances/PUSH UR T3MPRR.mp3", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/PUSH%20UR%20T3MPRR.mp3?raw=true"))
+
 warn("LOADED AUDIO PACK!")
                 end
