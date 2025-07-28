@@ -602,7 +602,7 @@
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/YOU ARE AN IDIOT (WYST Skin) Chase Theme [Pillar Chase 2 UST].mp3")
+			sound69.SoundId = customasset("Dances/YOU ARE AN IDIOT WYST Skin Chase Theme Pillar Chase 2 UST.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
