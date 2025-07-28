@@ -1782,7 +1782,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/SayMaxWell - Helltaker - VITALITY [Remix] (NO Copyright).mp3")
+			sound69.SoundId = customasset("Dances/SayMaxWell - Helltaker - VITALITY.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(8004387067,1.4)
@@ -2800,7 +2800,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/[30000 BPM] Kobaryo - HAL 30000  Special 30k subs.mp3")
+			sound69.SoundId = customasset("Dances/30000 BPM Kobaryo - HAL 30000  Special 30k subs.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -3227,7 +3227,7 @@ StarterGui:SetCore("SendNotification", {
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/lazy ruby - what are you so afraid of_ [Undertale - Amalgamate Remix].mp3")
+			sound69.SoundId = customasset("Dances/lazy ruby - what are you so afraid of_ Undertale - Amalgamate Remix.mp3")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(124044710949643,1.5)
