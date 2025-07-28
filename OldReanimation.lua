@@ -1072,7 +1072,7 @@ StarterGui:SetCore("SendNotification", {
 				end
 				end
 						end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal_Dance_Edit/refs/heads/main/ihadtoaddthisbecauseupdatingbothversionsistediousaf.lua))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/testing033333/Krystal_Dance_Edit/refs/heads/main/ihadtoaddthisbecauseupdatingbothversionsistediousaf.lua"))()
 	if k == "equals" then 
 		playbacktrack = not playbacktrack
 		if dancing == false then 
