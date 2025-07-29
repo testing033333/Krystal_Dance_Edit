@@ -151,9 +151,6 @@ writefile("Dances/PSYCHO.mp3",
 writefile("Dances/avernfix.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/avernfix.mp3?raw=true"))
   
-writefile("Dances/SayMaxWell - Helltaker - VITALITY [Remix] (NO Copyright).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/SayMaxWell - Helltaker - VITALITY [Remix] (NO Copyright).mp3?raw=true"))
-  
 writefile("Dances/Venetian Snares - Ultraviolent Junglist.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Venetian Snares - Ultraviolent Junglist.mp3?raw=true"))
   
@@ -468,6 +465,9 @@ writefile("Dances/SayMaxWell - Helltaker - VITALITY.mp3",
 
 writefile("Dances/PUSH UR T3MPRR.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/PUSH UR T3MPRR.mp3?raw=true"))
+
+writefile("Dances/BOFU2019 Options BGA.mp3", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/BOFU2017 Options BGA.mp3?raw=true"))
 
 warn("LOADED AUDIO PACK!")
                 end
