@@ -127,10 +127,6 @@ writefile("Dances/sleep deprivation.mp3",
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/sleep deprivation.mp3?raw=true"))
 warn("Downloaded!")
 
-writefile("Dances/how to sleep.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/sleep deprivation.mp3?raw=true"))
-warn("Downloaded!")
-
 writefile("Dances/Nhk!_.mp3", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Nhk!_.mp3?raw=true"))
 warn("Downloaded!")
@@ -420,7 +416,7 @@ writefile("Dances/CRANE'S RAGE (DREAMBOW REMIX).mp3",
 warn("Downloaded!")
 
 writefile("Dances/Overcompensate RUMIX!.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Overcompensate RUMIX!.mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/compensate.mp3?raw=true"))
 warn("Downloaded!")
 
 writefile("Dances/blknifebutronald.mp3", 
@@ -608,7 +604,7 @@ writefile("Dances/OFF  Pepper Steak [REMAKE].mp3",
 warn("Downloaded!")
 
 writefile("Dances/SayMaxWell - Helltaker - VITALITY.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/SayMaxWell - Helltaker - VITALITY.mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/helltaker.mp3?raw=true"))
 warn("Downloaded!")
 
 writefile("Dances/PUSH UR T3MPRR.mp3", 
@@ -616,6 +612,10 @@ writefile("Dances/PUSH UR T3MPRR.mp3",
 warn("Downloaded!")
 
 writefile("Dances/BOFU2019 Options BGA.mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/BOFU2017 Options BGA.mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/options.mp3?raw=true"))
+warn("Downloaded!")
+
+writefile("Dances/HITBOX.mp3", 
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/HITBOX.mp3?raw=true"))
 warn("Downloaded!")
 warn("LOADED AUDIO PACK! Note that some files may break and get corrupted. I can't think much of some solutions to fix this problem, so expect that to happen sometimes!")
