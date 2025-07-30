@@ -962,7 +962,7 @@
 	stopanim()
 	dancing = true
 	task.wait(.005)
-	sound69.SoundId = customasset("Dances/femtanyl - MURDER EVERY 1 U KNOW! (feat. takihasdied).mp3")
+	sound69.SoundId = customasset("Dances/murderfemtanyl.mp3")
 	sound69.PlaybackSpeed = 1
 	timeposcur = sound69.TimePosition 
 	sound69:Play()
