@@ -707,7 +707,7 @@
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/OFF  Pepper Steak [REMAKE].mp3")
+			sound69.SoundId = customasset("Dances/OFF.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
