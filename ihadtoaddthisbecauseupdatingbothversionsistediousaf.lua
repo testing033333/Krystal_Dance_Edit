@@ -902,11 +902,11 @@
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/how to sleep.mp3")
+			sound69.SoundId = customasset("Dances/HITBOX.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
-			playanim(139148388599834)
+			playanim(136211028022217,10.225)
 		else
 			stopanim()
 			sound69.PlaybackSpeed = 1
