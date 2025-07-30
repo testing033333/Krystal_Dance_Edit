@@ -136,7 +136,7 @@ writefile("Dances/Toromi Hearts 2.mp3",
 warn("Downloaded!")
 
 writefile("Dances/MURDER EVERY 1 U KNOW! (feat. takihasdied).mp3", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/MURDER EVERY 1 U KNOW! (feat. takihasdied).mp3?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/murderfemtanyl.mp3?raw=true"))
 warn("Downloaded!")
 
 writefile("Dances/atention.ogg", 
@@ -172,7 +172,7 @@ writefile("Dances/pr3ttyprincess3.mp3",
 warn("Downloaded!")
 
 writefile("Dances/Highland - Solo Tu, but its the best part sped up bass boosted.ogg", 
-	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/Highland - Solo Tu, but its the best part sped up bass boosted.ogg?raw=true"))
+	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/solotu.ogg?raw=true"))
 warn("Downloaded!")
 
 writefile("Dances/hysteriafull.mp3", 
