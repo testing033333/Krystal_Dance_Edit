@@ -662,7 +662,7 @@
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/BOFU2017 Options BGA.mp3")
+			sound69.SoundId = customasset("Dances/BOFU2019 Options BGA.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
@@ -2018,7 +2018,7 @@
 			stopanim()
 	dancing = true
 	task.wait(.005)
-			sound69.SoundId = customasset("Dances/Overcompensate (RUMIX!).mp3")
+			sound69.SoundId = customasset("Dances/Overcompensate RUMIX!.mp3")
 			sound69.PlaybackSpeed = 1
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
