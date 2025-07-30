@@ -1,6 +1,6 @@
-	if not isfolder("Dances") then 
-		makefolder("Dances")
-                             end
+if not isfolder("Dances") then 
+makefolder("Dances")
+                             
         task.spawn(function()
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "You look new here!";
@@ -13,7 +13,7 @@
 		Duration = 2;
 		Text = "Check Dances folder in the files!"
 	})
-	end)
+	
 
 writefile("Dances/femtanyl - WEIGHTLESS!.ogg", 
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/femtanyl - WEIGHTLESS!.ogg?raw=true"))
@@ -619,3 +619,5 @@ writefile("Dances/HITBOX.mp3",
 	game:HttpGet("https://github.com/testing033333/music/blob/Audio-1/HITBOX.mp3?raw=true"))
 warn("Downloaded!")
 warn("LOADED AUDIO PACK! Note that some files may break and get corrupted. I can't think much of some solutions to fix this problem, so expect that to happen sometimes!")
+		end)
+end
