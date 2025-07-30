@@ -1113,7 +1113,7 @@
 			stopanim()
 			dancing = true
 			task.wait(.005)
-			sound69.SoundId = customasset("Dances/Highland - Solo Tu, but its the best part (sped up bass boosted).ogg")
+			sound69.SoundId = customasset("Dances/Highland - Solo Tu, but its the best part sped up bass boosted.ogg")
 			timeposcur = sound69.TimePosition 
 	sound69:Play()
 			playanim(92699725136780)
