@@ -1214,7 +1214,96 @@
 			stopanim()
 			
 		end
-
+				elseif k == "pageup" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "delete" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "insert" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "end" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "home" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "pagedown" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+		end
 									end
 									end
 	if mode == 2 then 
@@ -1938,6 +2027,96 @@
 			stopanim()
 			
 		end
+								elseif k == "pageup" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "delete" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "insert" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "end" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "home" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "pagedown" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+	end
 	end 
 	end
 	if mode == 3 then 
@@ -2646,6 +2825,96 @@
 			stopanim()
 			
 	end
+								elseif k == "pageup" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "delete" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "insert" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "end" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "home" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "pagedown" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
 	end
 	end
 	if mode == 4 then
@@ -2889,6 +3158,96 @@
 			
 			end
 	elseif k == "numlock" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "pageup" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "delete" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "insert" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "end" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "home" then 
+		if dancing == false then 
+			stopanim()
+	dancing = true
+	task.wait(.005)
+			sound69.SoundId = customasset("Dances/femtanyl - WEIGHTLESS!.ogg")
+			sound69.PlaybackSpeed = 1
+			timeposcur = sound69.TimePosition 
+	sound69:Play()
+			playanim(13845017130)
+		else
+			stopanim()
+			sound69.PlaybackSpeed = 1
+			
+			end
+				elseif k == "pagedown" then 
 		if dancing == false then 
 			stopanim()
 	dancing = true
